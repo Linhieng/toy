@@ -14,6 +14,7 @@ main {
     &::after {
         content: 'unset';
         animation: var(--animation);
+        background-color: skyblue;
     }
 
     & [class$=item] {
