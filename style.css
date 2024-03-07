@@ -1,0 +1,97 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+[class$=container] {
+    outline: 1px solid #ccc;
+    margin: 40px;
+
+    width: 400px;
+    height: 400px;
+
+    animation: var(--animation);
+    &::after {
+        content: 'unset';
+        animation: var(--animation);
+    }
+
+    & [class$=item] {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        color: white;
+    }
+
+    & [class$=item]:nth-child(1) {background-color: #FF5733;}
+    & [class$=item]:nth-child(2) {background-color: #FFC300;}
+    & [class$=item]:nth-child(3) {background-color: #6D214F;}
+    & [class$=item]:nth-child(4) {background-color: #DAF7A6;}
+    & [class$=item]:nth-child(5) {background-color: #C70039;}
+    & [class$=item]:nth-child(6) {background-color: #900C3F;}
+    & [class$=item]:nth-child(7) {background-color: #1B9CFC;}
+    & [class$=item]:nth-child(8) {background-color: #82589F;}
+}
+
+main > [class$=align-items] > [class$=container] {
+    --animation: 3s infinite change-align-items;
+}
+main > [class$=justify-items] > [class$=container] {
+    --animation: 3s infinite change-justify-items;
+}
+main > [class$=align-content] > [class$=container] {
+    --animation: 5s infinite change-align-content;
+}
+main > [class$=justify-content] > [class$=container] {
+    --animation: 5s infinite change-justify-content;
+}
+
+
+.grid-container {
+    display: grid;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > [class$=items] .grid-container {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+main > [class$=content] .grid-container {
+    /* content 对齐的是 grid 容器，所以需要四周有空位才能看出效果 */
+    grid-template-rows: repeat(3, 60px);
+    grid-template-columns: repeat(3, 60px);
+}
+
+@keyframes change-align-items {
+    20% { align-items: stretch; content: 'stretch'}
+    40% { align-items: start;   content: 'start'}
+    60% { align-items: center;  content: 'center'}
+    80% { align-items: end;     content: 'end'}
+}
+@keyframes change-justify-items {
+    20% { justify-items: stretch;   content: 'stretch'}
+    40% { justify-items: start;     content: 'start'}
+    60% { justify-items: center;    content: 'center'}
+    80% { justify-items: end;       content: 'end'}
+}
+@keyframes change-align-content {
+     5% { align-content: space-evenly; content: 'space-evenly'}
+    20% { align-content: space-around; content: 'space-around'}
+    35% { align-content: space-between;content: 'space-between'}
+    40% { align-content: start;        content: 'start'}
+    55% { align-content: center;       content: 'center'}
+    70% { align-content: end;          content: 'end'}
+    85% { align-content: stretch;      content: 'stretch'}
+}
+@keyframes change-justify-content {
+     5% { justify-content: space-evenly; content: 'space-evenly'}
+    20% { justify-content: space-around; content: 'space-around'}
+    35% { justify-content: space-between;content: 'space-between'}
+    40% { justify-content: start;        content: 'start'}
+    55% { justify-content: center;       content: 'center'}
+    70% { justify-content: end;          content: 'end'}
+    85% { justify-content: stretch;      content: 'stretch'}
+}

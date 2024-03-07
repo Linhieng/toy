@@ -1,0 +1,21 @@
+- const numbers = Array.from({ length: 8 }, (_, index) => index + 1)
+
+mixin template(grid_flex, prop)
+    div(class=grid_flex + '__' + prop)
+        p=grid_flex + ': ' + prop
+        div(class=grid_flex + '-container')
+            each num in numbers
+                div(class=grid_flex + '-item')= num
+
+body
+    h1= '查看时，请打开 flex 和 grid 调试，因为这样可以查看辅助线'
+
+    main
+        +template('grid', 'align-items')
+        +template('grid', 'justify-items')
+        +template('grid', 'align-content')
+        +template('grid', 'justify-content')
+        +template('flex', 'align-items')
+        +template('flex', 'justify-items')
+        +template('flex', 'align-content')
+        +template('flex', 'justify-content')
