@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+
+<head>
+    <title>grid 布局中 items 对网格元素的影响</title>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section>
+        <p>结论：使用 items ，会导致子元素无法撑满单元格。网格布局中的单元格由 grid-template-* 定义。</p>
+        <p>网格子项并不代表单元格！你可以通过 devtool 看到单元格，但无法通过 css 进行操作。</p>
+    </section>
+    <main>
+        <span>1</span><span>2</span><span>3</span><span>4</span>
+    </main>
+    <main>
+        <span>1</span><span>2</span><span>3</span><span>4</span>
+    </main>
+    <main>
+        <span>1</span><span>2</span><span>3</span><span>4</span>
+    </main>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: 20px;
+            place-items: center;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 100px 100px;
+            grid-template-rows: 100px 100px;
+            box-shadow: 0 0 30px #eee;
+            border-radius: 20px;
+            padding: 20px;
+            position: relative;
+        }
+        main::after {
+            position: absolute;
+            width: max-content;
+            bottom: -1.5rem;
+            left: 1.5rem;
+        }
+        span {
+            outline: 1px solid red;
+        }
+        main:nth-of-type(1) {                     animation: align-items 5s infinite; }
+        main:nth-of-type(1)::after { content: ''; animation: align-items 5s infinite; }
+        main:nth-of-type(2) {                     animation: justify-items 5s infinite; }
+        main:nth-of-type(2)::after { content: ''; animation: justify-items 5s infinite; }
+        main:nth-of-type(3) {                     animation: items 5s infinite }
+        main:nth-of-type(3)::after { content: ''; animation: items 5s infinite }
+        @keyframes align-items {
+            0%{align-items: start;      content:'align-items: start'}
+            25%{align-items: center;    content:'align-items: center'}
+            50%{align-items: end;       content:'align-items: end'}
+            75%{align-items: stretch;   content:'align-items: stretch'}
+            100%{align-items: start;    content:'align-items: start'}
+        }
+        @keyframes justify-items {
+            0%{justify-items: start;      content:'justify-items: start'}
+            25%{justify-items: center;    content:'justify-items: center'}
+            50%{justify-items: end;       content:'justify-items: end'}
+            75%{justify-items: stretch;   content:'justify-items: stretch'}
+            100%{justify-items: start;    content:'justify-items: start'}
+        }
+        @keyframes items {
+            0%{align-items: start;      justify-items: start;       content:'items: start'}
+            25%{align-items: center;    justify-items: center;      content:'items: center'}
+            50%{align-items: end;       justify-items: end;         content:'items: end'}
+            75%{align-items: stretch;   justify-items: stretch;     content:'items: stretch'}
+            100%{align-items: start;    justify-items: start;       content:'items: start'}
+        }
+    </style>
+</body>
+
+</html>
