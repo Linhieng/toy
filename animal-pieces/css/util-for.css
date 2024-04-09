@@ -1,0 +1,689 @@
+.high-delay .shard-wrap:nth-child(1) .shard {
+  transition-delay: 0.05s !important;
+}
+
+.high-delay .shard-wrap:nth-child(2) .shard {
+  transition-delay: 0.1s !important;
+}
+
+.high-delay .shard-wrap:nth-child(3) .shard {
+  transition-delay: 0.15s !important;
+}
+
+.high-delay .shard-wrap:nth-child(4) .shard {
+  transition-delay: 0.2s !important;
+}
+
+.high-delay .shard-wrap:nth-child(5) .shard {
+  transition-delay: 0.25s !important;
+}
+
+.high-delay .shard-wrap:nth-child(6) .shard {
+  transition-delay: 0.3s !important;
+}
+
+.high-delay .shard-wrap:nth-child(7) .shard {
+  transition-delay: 0.35s !important;
+}
+
+.high-delay .shard-wrap:nth-child(8) .shard {
+  transition-delay: 0.4s !important;
+}
+
+.high-delay .shard-wrap:nth-child(9) .shard {
+  transition-delay: 0.45s !important;
+}
+
+.high-delay .shard-wrap:nth-child(10) .shard {
+  transition-delay: 0.5s !important;
+}
+
+.high-delay .shard-wrap:nth-child(11) .shard {
+  transition-delay: 0.55s !important;
+}
+
+.high-delay .shard-wrap:nth-child(12) .shard {
+  transition-delay: 0.6s !important;
+}
+
+.high-delay .shard-wrap:nth-child(13) .shard {
+  transition-delay: 0.65s !important;
+}
+
+.high-delay .shard-wrap:nth-child(14) .shard {
+  transition-delay: 0.7s !important;
+}
+
+.high-delay .shard-wrap:nth-child(15) .shard {
+  transition-delay: 0.75s !important;
+}
+
+.high-delay .shard-wrap:nth-child(16) .shard {
+  transition-delay: 0.8s !important;
+}
+
+.high-delay .shard-wrap:nth-child(17) .shard {
+  transition-delay: 0.85s !important;
+}
+
+.high-delay .shard-wrap:nth-child(18) .shard {
+  transition-delay: 0.9s !important;
+}
+
+.high-delay .shard-wrap:nth-child(19) .shard {
+  transition-delay: 0.95s !important;
+}
+
+.high-delay .shard-wrap:nth-child(20) .shard {
+  transition-delay: 1s !important;
+}
+
+.high-delay .shard-wrap:nth-child(21) .shard {
+  transition-delay: 1.05s !important;
+}
+
+.high-delay .shard-wrap:nth-child(22) .shard {
+  transition-delay: 1.1s !important;
+}
+
+.high-delay .shard-wrap:nth-child(23) .shard {
+  transition-delay: 1.15s !important;
+}
+
+.high-delay .shard-wrap:nth-child(24) .shard {
+  transition-delay: 1.2s !important;
+}
+
+.high-delay .shard-wrap:nth-child(25) .shard {
+  transition-delay: 1.25s !important;
+}
+
+.high-delay .shard-wrap:nth-child(26) .shard {
+  transition-delay: 1.3s !important;
+}
+
+.high-delay .shard-wrap:nth-child(27) .shard {
+  transition-delay: 1.35s !important;
+}
+
+.high-delay .shard-wrap:nth-child(28) .shard {
+  transition-delay: 1.4s !important;
+}
+
+.high-delay .shard-wrap:nth-child(29) .shard {
+  transition-delay: 1.45s !important;
+}
+
+.high-delay .shard-wrap:nth-child(30) .shard {
+  transition-delay: 1.5s !important;
+}
+
+.high-delay .shard-wrap:nth-child(31) .shard {
+  transition-delay: 1.55s !important;
+}
+
+.high-delay .shard-wrap:nth-child(32) .shard {
+  transition-delay: 1.6s !important;
+}
+
+.high-delay .shard-wrap:nth-child(33) .shard {
+  transition-delay: 1.65s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(1) .shard {
+  transition-delay: 1.65s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(2) .shard {
+  transition-delay: 1.6s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(3) .shard {
+  transition-delay: 1.55s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(4) .shard {
+  transition-delay: 1.5s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(5) .shard {
+  transition-delay: 1.45s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(6) .shard {
+  transition-delay: 1.4s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(7) .shard {
+  transition-delay: 1.35s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(8) .shard {
+  transition-delay: 1.3s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(9) .shard {
+  transition-delay: 1.25s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(10) .shard {
+  transition-delay: 1.2s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(11) .shard {
+  transition-delay: 1.15s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(12) .shard {
+  transition-delay: 1.1s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(13) .shard {
+  transition-delay: 1.05s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(14) .shard {
+  transition-delay: 1s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(15) .shard {
+  transition-delay: 0.95s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(16) .shard {
+  transition-delay: 0.9s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(17) .shard {
+  transition-delay: 0.85s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(18) .shard {
+  transition-delay: 0.8s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(19) .shard {
+  transition-delay: 0.75s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(20) .shard {
+  transition-delay: 0.7s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(21) .shard {
+  transition-delay: 0.65s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(22) .shard {
+  transition-delay: 0.6s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(23) .shard {
+  transition-delay: 0.55s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(24) .shard {
+  transition-delay: 0.5s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(25) .shard {
+  transition-delay: 0.45s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(26) .shard {
+  transition-delay: 0.4s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(27) .shard {
+  transition-delay: 0.35s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(28) .shard {
+  transition-delay: 0.3s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(29) .shard {
+  transition-delay: 0.25s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(30) .shard {
+  transition-delay: 0.2s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(31) .shard {
+  transition-delay: 0.15s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(32) .shard {
+  transition-delay: 0.1s !important;
+}
+
+.high-delay-reserved .shard-wrap:nth-child(33) .shard {
+  transition-delay: 0.05s !important;
+}
+
+.low-delay .shard-wrap:nth-child(1) .shard {
+  transition-delay: 0.02s !important;
+}
+
+.low-delay .shard-wrap:nth-child(2) .shard {
+  transition-delay: 0.04s !important;
+}
+
+.low-delay .shard-wrap:nth-child(3) .shard {
+  transition-delay: 0.06s !important;
+}
+
+.low-delay .shard-wrap:nth-child(4) .shard {
+  transition-delay: 0.08s !important;
+}
+
+.low-delay .shard-wrap:nth-child(5) .shard {
+  transition-delay: 0.1s !important;
+}
+
+.low-delay .shard-wrap:nth-child(6) .shard {
+  transition-delay: 0.12s !important;
+}
+
+.low-delay .shard-wrap:nth-child(7) .shard {
+  transition-delay: 0.14s !important;
+}
+
+.low-delay .shard-wrap:nth-child(8) .shard {
+  transition-delay: 0.16s !important;
+}
+
+.low-delay .shard-wrap:nth-child(9) .shard {
+  transition-delay: 0.18s !important;
+}
+
+.low-delay .shard-wrap:nth-child(10) .shard {
+  transition-delay: 0.2s !important;
+}
+
+.low-delay .shard-wrap:nth-child(11) .shard {
+  transition-delay: 0.22s !important;
+}
+
+.low-delay .shard-wrap:nth-child(12) .shard {
+  transition-delay: 0.24s !important;
+}
+
+.low-delay .shard-wrap:nth-child(13) .shard {
+  transition-delay: 0.26s !important;
+}
+
+.low-delay .shard-wrap:nth-child(14) .shard {
+  transition-delay: 0.28s !important;
+}
+
+.low-delay .shard-wrap:nth-child(15) .shard {
+  transition-delay: 0.3s !important;
+}
+
+.low-delay .shard-wrap:nth-child(16) .shard {
+  transition-delay: 0.32s !important;
+}
+
+.low-delay .shard-wrap:nth-child(17) .shard {
+  transition-delay: 0.34s !important;
+}
+
+.low-delay .shard-wrap:nth-child(18) .shard {
+  transition-delay: 0.36s !important;
+}
+
+.low-delay .shard-wrap:nth-child(19) .shard {
+  transition-delay: 0.38s !important;
+}
+
+.low-delay .shard-wrap:nth-child(20) .shard {
+  transition-delay: 0.4s !important;
+}
+
+.low-delay .shard-wrap:nth-child(21) .shard {
+  transition-delay: 0.42s !important;
+}
+
+.low-delay .shard-wrap:nth-child(22) .shard {
+  transition-delay: 0.44s !important;
+}
+
+.low-delay .shard-wrap:nth-child(23) .shard {
+  transition-delay: 0.46s !important;
+}
+
+.low-delay .shard-wrap:nth-child(24) .shard {
+  transition-delay: 0.48s !important;
+}
+
+.low-delay .shard-wrap:nth-child(25) .shard {
+  transition-delay: 0.5s !important;
+}
+
+.low-delay .shard-wrap:nth-child(26) .shard {
+  transition-delay: 0.52s !important;
+}
+
+.low-delay .shard-wrap:nth-child(27) .shard {
+  transition-delay: 0.54s !important;
+}
+
+.low-delay .shard-wrap:nth-child(28) .shard {
+  transition-delay: 0.56s !important;
+}
+
+.low-delay .shard-wrap:nth-child(29) .shard {
+  transition-delay: 0.58s !important;
+}
+
+.low-delay .shard-wrap:nth-child(30) .shard {
+  transition-delay: 0.6s !important;
+}
+
+.low-delay .shard-wrap:nth-child(31) .shard {
+  transition-delay: 0.62s !important;
+}
+
+.low-delay .shard-wrap:nth-child(32) .shard {
+  transition-delay: 0.64s !important;
+}
+
+.low-delay .shard-wrap:nth-child(33) .shard {
+  transition-delay: 0.66s !important;
+}
+
+.flow-red .shard-wrap:nth-child(1) .shard::before {
+  animation: shard-flow-red 2s 1.05s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(2) .shard::before {
+  animation: shard-flow-red 2s 1.1s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(3) .shard::before {
+  animation: shard-flow-red 2s 1.15s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(4) .shard::before {
+  animation: shard-flow-red 2s 1.2s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(5) .shard::before {
+  animation: shard-flow-red 2s 1.25s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(6) .shard::before {
+  animation: shard-flow-red 2s 1.3s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(7) .shard::before {
+  animation: shard-flow-red 2s 1.35s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(8) .shard::before {
+  animation: shard-flow-red 2s 1.4s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(9) .shard::before {
+  animation: shard-flow-red 2s 1.45s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(10) .shard::before {
+  animation: shard-flow-red 2s 1.5s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(11) .shard::before {
+  animation: shard-flow-red 2s 1.55s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(12) .shard::before {
+  animation: shard-flow-red 2s 1.6s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(13) .shard::before {
+  animation: shard-flow-red 2s 1.65s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(14) .shard::before {
+  animation: shard-flow-red 2s 1.7s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(15) .shard::before {
+  animation: shard-flow-red 2s 1.75s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(16) .shard::before {
+  animation: shard-flow-red 2s 1.8s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(17) .shard::before {
+  animation: shard-flow-red 2s 1.85s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(18) .shard::before {
+  animation: shard-flow-red 2s 1.9s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(19) .shard::before {
+  animation: shard-flow-red 2s 1.95s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(20) .shard::before {
+  animation: shard-flow-red 2s 2s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(21) .shard::before {
+  animation: shard-flow-red 2s 2.05s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(22) .shard::before {
+  animation: shard-flow-red 2s 2.1s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(23) .shard::before {
+  animation: shard-flow-red 2s 2.15s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(24) .shard::before {
+  animation: shard-flow-red 2s 2.2s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(25) .shard::before {
+  animation: shard-flow-red 2s 2.25s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(26) .shard::before {
+  animation: shard-flow-red 2s 2.3s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(27) .shard::before {
+  animation: shard-flow-red 2s 2.35s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(28) .shard::before {
+  animation: shard-flow-red 2s 2.4s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(29) .shard::before {
+  animation: shard-flow-red 2s 2.45s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(30) .shard::before {
+  animation: shard-flow-red 2s 2.5s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(31) .shard::before {
+  animation: shard-flow-red 2s 2.55s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(32) .shard::before {
+  animation: shard-flow-red 2s 2.6s infinite;
+}
+
+.flow-red .shard-wrap:nth-child(33) .shard::before {
+  animation: shard-flow-red 2s 2.65s infinite;
+}
+
+@keyframes shard-flow-red {
+  0% {
+    background-color: transparent;
+  }
+  30% {
+    background-color: rgba(255, 0, 0, 0.47);
+  }
+  66% {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.flow-white .shard-wrap:nth-child(1) .shard::before {
+  animation: shard-flow-white 2s 1.2s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(2) .shard::before {
+  animation: shard-flow-white 2s 1.4s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(3) .shard::before {
+  animation: shard-flow-white 2s 1.6s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(4) .shard::before {
+  animation: shard-flow-white 2s 1.8s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(5) .shard::before {
+  animation: shard-flow-white 2s 2s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(6) .shard::before {
+  animation: shard-flow-white 2s 2.2s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(7) .shard::before {
+  animation: shard-flow-white 2s 2.4s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(8) .shard::before {
+  animation: shard-flow-white 2s 2.6s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(9) .shard::before {
+  animation: shard-flow-white 2s 2.8s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(10) .shard::before {
+  animation: shard-flow-white 2s 3s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(11) .shard::before {
+  animation: shard-flow-white 2s 3.2s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(12) .shard::before {
+  animation: shard-flow-white 2s 3.4s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(13) .shard::before {
+  animation: shard-flow-white 2s 3.6s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(14) .shard::before {
+  animation: shard-flow-white 2s 3.8s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(15) .shard::before {
+  animation: shard-flow-white 2s 4s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(16) .shard::before {
+  animation: shard-flow-white 2s 4.2s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(17) .shard::before {
+  animation: shard-flow-white 2s 4.4s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(18) .shard::before {
+  animation: shard-flow-white 2s 4.6s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(19) .shard::before {
+  animation: shard-flow-white 2s 4.8s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(20) .shard::before {
+  animation: shard-flow-white 2s 5s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(21) .shard::before {
+  animation: shard-flow-white 2s 5.2s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(22) .shard::before {
+  animation: shard-flow-white 2s 5.4s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(23) .shard::before {
+  animation: shard-flow-white 2s 5.6s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(24) .shard::before {
+  animation: shard-flow-white 2s 5.8s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(25) .shard::before {
+  animation: shard-flow-white 2s 6s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(26) .shard::before {
+  animation: shard-flow-white 2s 6.2s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(27) .shard::before {
+  animation: shard-flow-white 2s 6.4s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(28) .shard::before {
+  animation: shard-flow-white 2s 6.6s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(29) .shard::before {
+  animation: shard-flow-white 2s 6.8s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(30) .shard::before {
+  animation: shard-flow-white 2s 7s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(31) .shard::before {
+  animation: shard-flow-white 2s 7.2s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(32) .shard::before {
+  animation: shard-flow-white 2s 7.4s infinite;
+}
+
+.flow-white .shard-wrap:nth-child(33) .shard::before {
+  animation: shard-flow-white 2s 7.6s infinite;
+}
+
+@keyframes shard-flow-white {
+  0% {
+    background-color: transparent;
+  }
+  30% {
+    background-color: rgba(255, 255, 255, 0.103);
+  }
+  66% {
+    background-color: rgba(255, 255, 255, 0.055);
+  }
+  100% {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<title>30种灭绝动物</title>
+
+	<!-- 基础 -->
+	<link rel="stylesheet" href="./css/index.css">
+	<!-- 工具类，一点小东西 -->
+	<link rel="stylesheet" href="./css/util.css">
+	<!-- 工具类，使用了 @for -->
+	<link rel="stylesheet" href="./css/util-for.css">
+	<!-- 初始页 piece -->
+	<link rel="stylesheet" href="./css/enter.css" >
+	<!-- 切换动物按钮 -->
+	<link rel="stylesheet" href="./css/btn.css">
+	<!-- 以下都是各个动物的样式 -->
+	<link rel="stylesheet" href="./css/crow.css" >
+	<link rel="stylesheet" href="./css/frog.css" >
+</head>
+
+<body style="  background-color: #1a1a1a; transition-duration: 1s!important;">
+	
+	<!-- 初始页的进入按钮 -->
+	<div id="enter" class="enter" >
+		<div class="enterBtn" style="opacity: 0;"><b>EXPLORE THE EXHIBITION</b></div>
+	</div>
+	
+	<!-- 主体 --> <!-- 初始状态是透明背景，形状是圆圈，低延迟 -->
+	<div id="animalWrap" class="circle bg-transparent low-delay">
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap"> <div class="shard"></div> </div>
+		<div class="shard-wrap peripheral"> <div class="shard"></div> </div>
+		<div class="shard-wrap peripheral"> <div class="shard"></div> </div>
+		<div class="shard-wrap peripheral"> <div class="shard"></div> </div>
+	</div>
+
+	<!-- 切换动物按钮 -->
+	<div id="btn" class="btn" style="display: none;">
+		<div id="btnPrev" class="prev"> <a class="nav-btn" href="#"> <div class="arrow"></div> </a> </div>
+		<div id="btnNext" class="next"> <a class="nav-btn" href="#"> <div class="arrow"></div> </a> </div>
+		<img src="./assets/what.png">
+	</div>
+	
+	<!-- 全局变量 -->
+	<script src="./js/global.js"></script>
+	<!-- 初始页逻辑处理 -->
+	<script src="./js/enter.js"></script>
+	<!-- 切换动物按钮逻辑 -->
+	<script src="./js/btn.js"></script>
+	<!-- 动物的小动作逻辑 -->
+	<script src="./js/move.js"></script>
+
+</body>
+
+</html>

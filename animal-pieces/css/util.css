@@ -1,0 +1,11 @@
+.short-duration .shard {
+  transition-duration: 0.3s !important;
+}
+
+.long-duration .shard {
+  transition-duration: 1s !important;
+}
+
+.bg-transparent .shard {
+  background-color: transparent !important;
+}

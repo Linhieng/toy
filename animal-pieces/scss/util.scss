@@ -1,0 +1,13 @@
+// 该工具类均用来控制 shard
+
+// 短的变化时间
+.short-duration .shard {
+  transition-duration: .3s!important;
+}
+// 长的变化时间
+.long-duration .shard {
+  transition-duration: 1s!important;
+}
+.bg-transparent .shard {
+  background-color: transparent!important;
+}

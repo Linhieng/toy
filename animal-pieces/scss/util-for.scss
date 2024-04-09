@@ -1,0 +1,49 @@
+
+// high-delay 高延迟
+@for $i from 1 through 33 {
+  .high-delay .shard-wrap:nth-child(#{$i}) .shard {
+    $m: $i/20;
+    transition-delay: #{$m}s!important;
+  }
+}
+// high-delay-reserved
+@for $i from 33 through 1 {
+  .high-delay-reserved .shard-wrap:nth-child(#{34-$i}) .shard {
+    $m: $i/20;
+    transition-delay: #{$m}s!important;
+  }
+}
+
+// low-delay 低延迟
+@for $i from 1 through 33 {
+  .low-delay .shard-wrap:nth-child(#{$i}) .shard {
+    $m: $i/50;
+    transition-delay: #{$m}s!important;
+  }
+}
+
+// flow-red
+@for $i from 1 through 33 {
+  .flow-red .shard-wrap:nth-child(#{$i}) .shard::before {
+    animation: shard-flow-red 2s #{1+$i/20}s infinite;
+  }
+}
+@keyframes shard-flow-red {
+  0% { background-color: transparent; }
+  30% { background-color: rgba(255, 0, 0, 0.47); }
+  66% { background-color: rgba(0, 0, 0, 0.1); }
+  100% { background-color: transparent; }
+}
+
+// flow-white
+@for $i from 1 through 33 {
+  .flow-white .shard-wrap:nth-child(#{$i}) .shard::before {
+    animation: shard-flow-white 2s #{1+$i/5}s infinite;
+  }
+}
+@keyframes shard-flow-white {
+  0% { background-color: transparent; }
+  30% { background-color: rgba(255, 255, 255, 0.103); }
+  66% { background-color: rgba(255, 255, 255, 0.055); }
+  100% { background-color: transparent; }
+}
