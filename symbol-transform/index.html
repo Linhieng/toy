@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>
+        <label for="inChar">symbol：</label>
+        <input type="text" name="inChar" id="inChar" maxlength="1">
+    </p>
+    <p id="showNum"></p>
+
+    <p>
+        <label for="inNum">number(radix 10)：</label>
+        <input type="number" id="inNum" min="0">
+    </p>
+    <p id="showChar"></p>
+
+    <p id="range-input">
+        <input type="number" id="from" min="0">
+        <span>~</span>
+        <input type="number" id="to" min="0">
+    </p>
+    <button id="btnShowRange">generate</button>
+    <p id="showRange"></p>
+
+    <style>
+        p {
+            width: 95vw;
+            display: flex;
+        }
+
+        input,
+        p {
+            font-size: 2rem;
+        }
+
+        span {
+            font-size: 5rem;
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+        }
+
+        #range-input {
+            display: flex;
+            width: 100%;
+        }
+    </style>
+    <script>
+        document.querySelector('button#btnShowRange').onclick = emitBtn
+        document.querySelector('input#from').onkeyup = e => e.keyCode === 13 && emitBtn()
+        document.querySelector('input#to').onkeyup = e => e.keyCode === 13 && emitBtn()
+
+        function emitBtn() {
+            console.log('123')
+            const from = document.querySelector('input#from')
+            const to = document.querySelector('input#to')
+            try {
+                const a = Number.parseInt(from.value)
+                const b = Number.parseInt(to.value)
+                if (Number.isNaN(a) || Number.isNaN(b)) return
+                document.querySelector('p#showRange').textContent = generateRangeChar(a, b).join(' ')
+            } catch (error) {
+                console.error(error.message)
+            }
+        }
+
+
+        const showNum = document.querySelector('p#showNum')
+        const showChar = document.querySelector('p#showChar')
+        document.querySelector('input#inChar').oninput = (e => {
+            if (e.target.value !== '') {
+                const num = e.target.value.charCodeAt() || 0
+                showNum.innerText =
+                    `10 radix: &#${num};
+                    16 radix: U+${num.toString(16)}
+                    `
+            } else {
+                showNum.innerText = ''
+            }
+        })
+        document.querySelector('input#inNum').oninput = (e => {
+            if (e.target.value !== '') {
+                showChar.textContent = toChar(e.target) // innerHTML = `&#80;`
+            } else {
+                showChar.textContent = ''
+            }
+        })
+
+        function generateRangeChar(a, b) {
+            if (a > b) {
+                return generateRangeChar(b, a)
+            }
+            const result = []
+            for (let i = a; i <= b; i++) {
+                result.push(toChar(i))
+            }
+            return result
+        }
+
+        function toChar(input) {
+            if (input instanceof HTMLInputElement) {
+                input = input.value
+            }
+            input = Number.parseInt(input)
+            if (Number.isNaN(input)) {
+                return ''
+            }
+            return String.fromCodePoint(input)
+        }
+    </script>
+</body>
+
+</html>
