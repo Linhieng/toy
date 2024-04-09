@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>点阵</title>
+
+        <link rel="stylesheet" href="./index.css" />
+        <script type="module" src="index.js"></script>
+        <script>
+            // 这样做仅仅只是为了在 ts 中试试全局变量的声明罢了
+            let imgFile = null
+        </script>
+    </head>
+
+    <body>
+        <h1>图片转点阵</h1>
+
+        <ol>
+            <li><input type="file" name="" id="file" /></li>
+            <li>
+                <label for="width">宽度</label>
+                <input
+                    type="number"
+                    id="width"
+                    placeholder="auto"
+                    value="128"
+                />
+            </li>
+            <li>
+                <label for="height">高度</label>
+                <input
+                    type="number"
+                    id="height"
+                    placeholder="auto"
+                    value="64"
+                />
+            </li>
+            <li><button id="btn-scale">放缩图片</button></li>
+            <li><button id="btn-bit">生成黑白图片</button></li>
+            <li><button id="get-c51">生成c51编码</button></li>
+            <li><button id="copy-c51">复制c51编码</button></li>
+        </ol>
+
+        <hr />
+
+        <div class="image-wrapper">
+            <div class="img-box scroll-wrapper__not_edge">
+                <img src="" alt="" />
+            </div>
+            <div class="canvas-box scroll-wrapper__not_edge">
+                <canvas></canvas>
+            </div>
+        </div>
+        <div class="c51-str">
+            <textarea
+                id="c51-text"
+                class="monospace-font"
+                cols="200"
+                rows="30"
+            ></textarea>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+.image-wrapper {
+    display: flex;
+}
+.img-box,
+.canvas-box {
+    max-width: 800px;
+    max-height: 400px;
+    overflow: auto;
+    margin-right: 20px;
+}
+
+.monospace-font {
+    font-family: monospace;
+}
+
+.scroll-wrapper__not_edge {
+    --bg: white;
+    --scroll-color: gray;
+    --scroll-background-side: 10px;
+    --scroll-thumb-side: 6px;
+
+    box-sizing: border-box;
+    overflow: scroll;
+}
+.scroll-wrapper__not_edge::-webkit-scrollbar {
+    width: var(--scroll-background-side);
+    height: var(--scroll-background-side);
+    background-color: var(--bg);
+}
+.scroll-wrapper__not_edge::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0
+        calc(calc(var(--scroll-background-side) - var(--scroll-thumb-side)) / 2)
+        var(--bg);
+    background-color: var(--scroll-color);
+    border-radius: var(--scroll-thumb-side);
+}
