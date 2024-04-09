@@ -1,0 +1,7 @@
+#toggleInherit:checked~.show-box .notInherit {
+    display: none;
+}
+
+#toggleInherit:not(:checked)~.show-box .canInherit {
+    display: none;
+}

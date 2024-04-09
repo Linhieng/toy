@@ -1,0 +1,4133 @@
+[
+    {
+        "props": "-moz-float-edge",
+        "href": "/en-US/docs/Web/CSS/-moz-float-edge",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-float-edge",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-moz-force-broken-image-icon",
+        "href": "/en-US/docs/Web/CSS/-moz-force-broken-image-icon",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-force-broken-image-icon",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-moz-image-region",
+        "href": "/en-US/docs/Web/CSS/-moz-image-region",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-image-region",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-moz-orient",
+        "href": "/en-US/docs/Web/CSS/-moz-orient",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-orient",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-moz-user-focus",
+        "href": "/en-US/docs/Web/CSS/-moz-user-focus",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-user-focus",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-moz-user-input",
+        "href": "/en-US/docs/Web/CSS/-moz-user-input",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-user-input",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-webkit-border-before",
+        "href": "/en-US/docs/Web/CSS/-webkit-border-before",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-border-before",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-webkit-box-reflect",
+        "href": "/en-US/docs/Web/CSS/-webkit-box-reflect",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-webkit-line-clamp",
+        "href": "/en-US/docs/Web/CSS/-webkit-line-clamp",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-webkit-mask-box-image",
+        "href": "/en-US/docs/Web/CSS/-webkit-mask-box-image",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-mask-box-image",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "Initial value: noneApplies to: all elementsComputed value: as specified"
+    },
+    {
+        "props": "-webkit-mask-composite",
+        "href": "/en-US/docs/Web/CSS/-webkit-mask-composite",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-mask-composite",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-webkit-mask-position-x",
+        "href": "/en-US/docs/Web/CSS/-webkit-mask-position-x",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-mask-position-x",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-webkit-mask-position-y",
+        "href": "/en-US/docs/Web/CSS/-webkit-mask-position-y",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-mask-position-y",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-webkit-mask-repeat-x",
+        "href": "/en-US/docs/Web/CSS/-webkit-mask-repeat-x",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-mask-repeat-x",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-webkit-mask-repeat-y",
+        "href": "/en-US/docs/Web/CSS/-webkit-mask-repeat-y",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-mask-repeat-y",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "-webkit-overflow-scrolling",
+        "href": "/en-US/docs/Web/CSS/-webkit-overflow-scrolling",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-webkit-tap-highlight-color",
+        "href": "/en-US/docs/Web/CSS/-webkit-tap-highlight-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-tap-highlight-color",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-webkit-text-fill-color",
+        "href": "/en-US/docs/Web/CSS/-webkit-text-fill-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-webkit-text-security",
+        "href": "/en-US/docs/Web/CSS/-webkit-text-security",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-security",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": ""
+    },
+    {
+        "props": "-webkit-text-stroke",
+        "href": "/en-US/docs/Web/CSS/-webkit-text-stroke",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-webkit-text-stroke-color",
+        "href": "/en-US/docs/Web/CSS/-webkit-text-stroke-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-webkit-text-stroke-width",
+        "href": "/en-US/docs/Web/CSS/-webkit-text-stroke-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "-webkit-touch-callout",
+        "href": "/en-US/docs/Web/CSS/-webkit-touch-callout",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "accent-color",
+        "href": "/en-US/docs/Web/CSS/accent-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "align-content",
+        "href": "/en-US/docs/Web/CSS/align-content",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-content",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "align-items",
+        "href": "/en-US/docs/Web/CSS/align-items",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-items",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "align-self",
+        "href": "/en-US/docs/Web/CSS/align-self",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-self",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "align-tracks",
+        "href": "/en-US/docs/Web/CSS/align-tracks",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-tracks",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "all",
+        "href": "/en-US/docs/Web/CSS/all",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/all",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation",
+        "href": "/en-US/docs/Web/CSS/animation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-composition",
+        "href": "/en-US/docs/Web/CSS/animation-composition",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-delay",
+        "href": "/en-US/docs/Web/CSS/animation-delay",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-direction",
+        "href": "/en-US/docs/Web/CSS/animation-direction",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-duration",
+        "href": "/en-US/docs/Web/CSS/animation-duration",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-fill-mode",
+        "href": "/en-US/docs/Web/CSS/animation-fill-mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-iteration-count",
+        "href": "/en-US/docs/Web/CSS/animation-iteration-count",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-name",
+        "href": "/en-US/docs/Web/CSS/animation-name",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-play-state",
+        "href": "/en-US/docs/Web/CSS/animation-play-state",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-range",
+        "href": "/en-US/docs/Web/CSS/animation-range",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-range-end",
+        "href": "/en-US/docs/Web/CSS/animation-range-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-range-start",
+        "href": "/en-US/docs/Web/CSS/animation-range-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-range-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-timeline",
+        "href": "/en-US/docs/Web/CSS/animation-timeline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "animation-timing-function",
+        "href": "/en-US/docs/Web/CSS/animation-timing-function",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "appearance",
+        "href": "/en-US/docs/Web/CSS/appearance",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/appearance",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "aspect-ratio",
+        "href": "/en-US/docs/Web/CSS/aspect-ratio",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "backdrop-filter",
+        "href": "/en-US/docs/Web/CSS/backdrop-filter",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "backface-visibility",
+        "href": "/en-US/docs/Web/CSS/backface-visibility",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background",
+        "href": "/en-US/docs/Web/CSS/background",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-attachment",
+        "href": "/en-US/docs/Web/CSS/background-attachment",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-blend-mode",
+        "href": "/en-US/docs/Web/CSS/background-blend-mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-clip",
+        "href": "/en-US/docs/Web/CSS/background-clip",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-color",
+        "href": "/en-US/docs/Web/CSS/background-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-image",
+        "href": "/en-US/docs/Web/CSS/background-image",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-image",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-origin",
+        "href": "/en-US/docs/Web/CSS/background-origin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-position",
+        "href": "/en-US/docs/Web/CSS/background-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-position-x",
+        "href": "/en-US/docs/Web/CSS/background-position-x",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-x",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-position-y",
+        "href": "/en-US/docs/Web/CSS/background-position-y",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-y",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-repeat",
+        "href": "/en-US/docs/Web/CSS/background-repeat",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "background-size",
+        "href": "/en-US/docs/Web/CSS/background-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "block-size",
+        "href": "/en-US/docs/Web/CSS/block-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/block-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border",
+        "href": "/en-US/docs/Web/CSS/border",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block",
+        "href": "/en-US/docs/Web/CSS/border-block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-color",
+        "href": "/en-US/docs/Web/CSS/border-block-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-end",
+        "href": "/en-US/docs/Web/CSS/border-block-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-end-color",
+        "href": "/en-US/docs/Web/CSS/border-block-end-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-end-style",
+        "href": "/en-US/docs/Web/CSS/border-block-end-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-end-width",
+        "href": "/en-US/docs/Web/CSS/border-block-end-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-start",
+        "href": "/en-US/docs/Web/CSS/border-block-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-start-color",
+        "href": "/en-US/docs/Web/CSS/border-block-start-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-start-style",
+        "href": "/en-US/docs/Web/CSS/border-block-start-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-start-width",
+        "href": "/en-US/docs/Web/CSS/border-block-start-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-style",
+        "href": "/en-US/docs/Web/CSS/border-block-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-block-width",
+        "href": "/en-US/docs/Web/CSS/border-block-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-bottom",
+        "href": "/en-US/docs/Web/CSS/border-bottom",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-bottom-color",
+        "href": "/en-US/docs/Web/CSS/border-bottom-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-bottom-left-radius",
+        "href": "/en-US/docs/Web/CSS/border-bottom-left-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-left-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-bottom-right-radius",
+        "href": "/en-US/docs/Web/CSS/border-bottom-right-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-right-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-bottom-style",
+        "href": "/en-US/docs/Web/CSS/border-bottom-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-bottom-width",
+        "href": "/en-US/docs/Web/CSS/border-bottom-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-collapse",
+        "href": "/en-US/docs/Web/CSS/border-collapse",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "border-color",
+        "href": "/en-US/docs/Web/CSS/border-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-end-end-radius",
+        "href": "/en-US/docs/Web/CSS/border-end-end-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-end-end-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-end-start-radius",
+        "href": "/en-US/docs/Web/CSS/border-end-start-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-end-start-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-image",
+        "href": "/en-US/docs/Web/CSS/border-image",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-image-outset",
+        "href": "/en-US/docs/Web/CSS/border-image-outset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-outset",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-image-repeat",
+        "href": "/en-US/docs/Web/CSS/border-image-repeat",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-repeat",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-image-slice",
+        "href": "/en-US/docs/Web/CSS/border-image-slice",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-slice",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-image-source",
+        "href": "/en-US/docs/Web/CSS/border-image-source",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-source",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-image-width",
+        "href": "/en-US/docs/Web/CSS/border-image-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline",
+        "href": "/en-US/docs/Web/CSS/border-inline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-color",
+        "href": "/en-US/docs/Web/CSS/border-inline-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-end",
+        "href": "/en-US/docs/Web/CSS/border-inline-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-end-color",
+        "href": "/en-US/docs/Web/CSS/border-inline-end-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-end-style",
+        "href": "/en-US/docs/Web/CSS/border-inline-end-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-end-width",
+        "href": "/en-US/docs/Web/CSS/border-inline-end-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-start",
+        "href": "/en-US/docs/Web/CSS/border-inline-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-start-color",
+        "href": "/en-US/docs/Web/CSS/border-inline-start-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-start-style",
+        "href": "/en-US/docs/Web/CSS/border-inline-start-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-start-width",
+        "href": "/en-US/docs/Web/CSS/border-inline-start-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-style",
+        "href": "/en-US/docs/Web/CSS/border-inline-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-inline-width",
+        "href": "/en-US/docs/Web/CSS/border-inline-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-left",
+        "href": "/en-US/docs/Web/CSS/border-left",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-left",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-left-color",
+        "href": "/en-US/docs/Web/CSS/border-left-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-left-style",
+        "href": "/en-US/docs/Web/CSS/border-left-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-left-width",
+        "href": "/en-US/docs/Web/CSS/border-left-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-radius",
+        "href": "/en-US/docs/Web/CSS/border-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-right",
+        "href": "/en-US/docs/Web/CSS/border-right",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-right-color",
+        "href": "/en-US/docs/Web/CSS/border-right-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-right-style",
+        "href": "/en-US/docs/Web/CSS/border-right-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-right-width",
+        "href": "/en-US/docs/Web/CSS/border-right-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-spacing",
+        "href": "/en-US/docs/Web/CSS/border-spacing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-spacing",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "border-start-end-radius",
+        "href": "/en-US/docs/Web/CSS/border-start-end-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-start-end-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-start-start-radius",
+        "href": "/en-US/docs/Web/CSS/border-start-start-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-start-start-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-style",
+        "href": "/en-US/docs/Web/CSS/border-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-top",
+        "href": "/en-US/docs/Web/CSS/border-top",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-top-color",
+        "href": "/en-US/docs/Web/CSS/border-top-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-top-left-radius",
+        "href": "/en-US/docs/Web/CSS/border-top-left-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-left-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-top-right-radius",
+        "href": "/en-US/docs/Web/CSS/border-top-right-radius",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-right-radius",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-top-style",
+        "href": "/en-US/docs/Web/CSS/border-top-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-top-width",
+        "href": "/en-US/docs/Web/CSS/border-top-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "border-width",
+        "href": "/en-US/docs/Web/CSS/border-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "bottom",
+        "href": "/en-US/docs/Web/CSS/bottom",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/bottom",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-align",
+        "href": "/en-US/docs/Web/CSS/box-align",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-align",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-decoration-break",
+        "href": "/en-US/docs/Web/CSS/box-decoration-break",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-direction",
+        "href": "/en-US/docs/Web/CSS/box-direction",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-direction",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-flex",
+        "href": "/en-US/docs/Web/CSS/box-flex",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-flex",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-flex-group",
+        "href": "/en-US/docs/Web/CSS/box-flex-group",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-flex-group",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-lines",
+        "href": "/en-US/docs/Web/CSS/box-lines",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-lines",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-ordinal-group",
+        "href": "/en-US/docs/Web/CSS/box-ordinal-group",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-ordinal-group",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-orient",
+        "href": "/en-US/docs/Web/CSS/box-orient",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-orient",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-pack",
+        "href": "/en-US/docs/Web/CSS/box-pack",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-pack",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-shadow",
+        "href": "/en-US/docs/Web/CSS/box-shadow",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "box-sizing",
+        "href": "/en-US/docs/Web/CSS/box-sizing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "break-after",
+        "href": "/en-US/docs/Web/CSS/break-after",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-after",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "break-before",
+        "href": "/en-US/docs/Web/CSS/break-before",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-before",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "break-inside",
+        "href": "/en-US/docs/Web/CSS/break-inside",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "caption-side",
+        "href": "/en-US/docs/Web/CSS/caption-side",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/caption-side",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "caret-color",
+        "href": "/en-US/docs/Web/CSS/caret-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "clear",
+        "href": "/en-US/docs/Web/CSS/clear",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clear",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "clip",
+        "href": "/en-US/docs/Web/CSS/clip",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip",
+        "nonStandard": false,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "clip-path",
+        "href": "/en-US/docs/Web/CSS/clip-path",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "color",
+        "href": "/en-US/docs/Web/CSS/color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "color-interpolation",
+        "href": "/en-US/docs/Web/CSS/color-interpolation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": ""
+    },
+    {
+        "props": "color-scheme",
+        "href": "/en-US/docs/Web/CSS/color-scheme",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "column-count",
+        "href": "/en-US/docs/Web/CSS/column-count",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-count",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "column-fill",
+        "href": "/en-US/docs/Web/CSS/column-fill",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-fill",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "column-gap",
+        "href": "/en-US/docs/Web/CSS/column-gap",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "column-rule",
+        "href": "/en-US/docs/Web/CSS/column-rule",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "column-rule-color",
+        "href": "/en-US/docs/Web/CSS/column-rule-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "column-rule-style",
+        "href": "/en-US/docs/Web/CSS/column-rule-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "column-rule-width",
+        "href": "/en-US/docs/Web/CSS/column-rule-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "column-span",
+        "href": "/en-US/docs/Web/CSS/column-span",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-span",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "column-width",
+        "href": "/en-US/docs/Web/CSS/column-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "columns",
+        "href": "/en-US/docs/Web/CSS/columns",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/columns",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "contain",
+        "href": "/en-US/docs/Web/CSS/contain",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "contain-intrinsic-block-size",
+        "href": "/en-US/docs/Web/CSS/contain-intrinsic-block-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-block-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "contain-intrinsic-height",
+        "href": "/en-US/docs/Web/CSS/contain-intrinsic-height",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-height",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "contain-intrinsic-inline-size",
+        "href": "/en-US/docs/Web/CSS/contain-intrinsic-inline-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-inline-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "contain-intrinsic-size",
+        "href": "/en-US/docs/Web/CSS/contain-intrinsic-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "contain-intrinsic-width",
+        "href": "/en-US/docs/Web/CSS/contain-intrinsic-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "container",
+        "href": "/en-US/docs/Web/CSS/container",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/container",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "container-name",
+        "href": "/en-US/docs/Web/CSS/container-name",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/container-name",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "container-type",
+        "href": "/en-US/docs/Web/CSS/container-type",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/container-type",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "content",
+        "href": "/en-US/docs/Web/CSS/content",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/content",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "content-visibility",
+        "href": "/en-US/docs/Web/CSS/content-visibility",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "counter-increment",
+        "href": "/en-US/docs/Web/CSS/counter-increment",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/counter-increment",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "counter-reset",
+        "href": "/en-US/docs/Web/CSS/counter-reset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/counter-reset",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "counter-set",
+        "href": "/en-US/docs/Web/CSS/counter-set",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/counter-set",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "cursor",
+        "href": "/en-US/docs/Web/CSS/cursor",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "direction",
+        "href": "/en-US/docs/Web/CSS/direction",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/direction",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "display",
+        "href": "/en-US/docs/Web/CSS/display",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "empty-cells",
+        "href": "/en-US/docs/Web/CSS/empty-cells",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/empty-cells",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "filter",
+        "href": "/en-US/docs/Web/CSS/filter",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "flex",
+        "href": "/en-US/docs/Web/CSS/flex",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "flex-basis",
+        "href": "/en-US/docs/Web/CSS/flex-basis",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "flex-direction",
+        "href": "/en-US/docs/Web/CSS/flex-direction",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "flex-flow",
+        "href": "/en-US/docs/Web/CSS/flex-flow",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "flex-grow",
+        "href": "/en-US/docs/Web/CSS/flex-grow",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "flex-shrink",
+        "href": "/en-US/docs/Web/CSS/flex-shrink",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "flex-wrap",
+        "href": "/en-US/docs/Web/CSS/flex-wrap",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "float",
+        "href": "/en-US/docs/Web/CSS/float",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/float",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "font",
+        "href": "/en-US/docs/Web/CSS/font",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-family",
+        "href": "/en-US/docs/Web/CSS/font-family",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-family",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-feature-settings",
+        "href": "/en-US/docs/Web/CSS/font-feature-settings",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-kerning",
+        "href": "/en-US/docs/Web/CSS/font-kerning",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-kerning",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-language-override",
+        "href": "/en-US/docs/Web/CSS/font-language-override",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-language-override",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-optical-sizing",
+        "href": "/en-US/docs/Web/CSS/font-optical-sizing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-optical-sizing",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-palette",
+        "href": "/en-US/docs/Web/CSS/font-palette",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-palette",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-size",
+        "href": "/en-US/docs/Web/CSS/font-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-size-adjust",
+        "href": "/en-US/docs/Web/CSS/font-size-adjust",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-smooth",
+        "href": "/en-US/docs/Web/CSS/font-smooth",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-stretch",
+        "href": "/en-US/docs/Web/CSS/font-stretch",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-style",
+        "href": "/en-US/docs/Web/CSS/font-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-synthesis",
+        "href": "/en-US/docs/Web/CSS/font-synthesis",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-synthesis-position",
+        "href": "/en-US/docs/Web/CSS/font-synthesis-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-synthesis-small-caps",
+        "href": "/en-US/docs/Web/CSS/font-synthesis-small-caps",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-small-caps",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-synthesis-style",
+        "href": "/en-US/docs/Web/CSS/font-synthesis-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-synthesis-weight",
+        "href": "/en-US/docs/Web/CSS/font-synthesis-weight",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis-weight",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variant",
+        "href": "/en-US/docs/Web/CSS/font-variant",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variant-alternates",
+        "href": "/en-US/docs/Web/CSS/font-variant-alternates",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variant-caps",
+        "href": "/en-US/docs/Web/CSS/font-variant-caps",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variant-east-asian",
+        "href": "/en-US/docs/Web/CSS/font-variant-east-asian",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-east-asian",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variant-emoji",
+        "href": "/en-US/docs/Web/CSS/font-variant-emoji",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-emoji",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variant-ligatures",
+        "href": "/en-US/docs/Web/CSS/font-variant-ligatures",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variant-numeric",
+        "href": "/en-US/docs/Web/CSS/font-variant-numeric",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variant-position",
+        "href": "/en-US/docs/Web/CSS/font-variant-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-variation-settings",
+        "href": "/en-US/docs/Web/CSS/font-variation-settings",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "font-weight",
+        "href": "/en-US/docs/Web/CSS/font-weight",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "forced-color-adjust",
+        "href": "/en-US/docs/Web/CSS/forced-color-adjust",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/forced-color-adjust",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "gap",
+        "href": "/en-US/docs/Web/CSS/gap",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/gap",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid",
+        "href": "/en-US/docs/Web/CSS/grid",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-area",
+        "href": "/en-US/docs/Web/CSS/grid-area",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-auto-columns",
+        "href": "/en-US/docs/Web/CSS/grid-auto-columns",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-auto-flow",
+        "href": "/en-US/docs/Web/CSS/grid-auto-flow",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-auto-rows",
+        "href": "/en-US/docs/Web/CSS/grid-auto-rows",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-column",
+        "href": "/en-US/docs/Web/CSS/grid-column",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-column-end",
+        "href": "/en-US/docs/Web/CSS/grid-column-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-column-start",
+        "href": "/en-US/docs/Web/CSS/grid-column-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-row",
+        "href": "/en-US/docs/Web/CSS/grid-row",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-row-end",
+        "href": "/en-US/docs/Web/CSS/grid-row-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-row-start",
+        "href": "/en-US/docs/Web/CSS/grid-row-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-template",
+        "href": "/en-US/docs/Web/CSS/grid-template",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-template-areas",
+        "href": "/en-US/docs/Web/CSS/grid-template-areas",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-template-columns",
+        "href": "/en-US/docs/Web/CSS/grid-template-columns",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "grid-template-rows",
+        "href": "/en-US/docs/Web/CSS/grid-template-rows",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "hanging-punctuation",
+        "href": "/en-US/docs/Web/CSS/hanging-punctuation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/hanging-punctuation",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "height",
+        "href": "/en-US/docs/Web/CSS/height",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/height",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "hyphenate-character",
+        "href": "/en-US/docs/Web/CSS/hyphenate-character",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-character",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "hyphenate-limit-chars",
+        "href": "/en-US/docs/Web/CSS/hyphenate-limit-chars",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/hyphenate-limit-chars",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "hyphens",
+        "href": "/en-US/docs/Web/CSS/hyphens",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "image-orientation",
+        "href": "/en-US/docs/Web/CSS/image-orientation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "image-rendering",
+        "href": "/en-US/docs/Web/CSS/image-rendering",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "image-resolution",
+        "href": "/en-US/docs/Web/CSS/image-resolution",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/image-resolution",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "yes"
+    },
+    {
+        "props": "initial-letter",
+        "href": "/en-US/docs/Web/CSS/initial-letter",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/initial-letter",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "initial-letter-align",
+        "href": "/en-US/docs/Web/CSS/initial-letter-align",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/initial-letter-align",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "inline-size",
+        "href": "/en-US/docs/Web/CSS/inline-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "inset",
+        "href": "/en-US/docs/Web/CSS/inset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "inset-block",
+        "href": "/en-US/docs/Web/CSS/inset-block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-block",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "inset-block-end",
+        "href": "/en-US/docs/Web/CSS/inset-block-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-block-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "inset-block-start",
+        "href": "/en-US/docs/Web/CSS/inset-block-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-block-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "inset-inline",
+        "href": "/en-US/docs/Web/CSS/inset-inline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-inline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "inset-inline-end",
+        "href": "/en-US/docs/Web/CSS/inset-inline-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-inline-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "inset-inline-start",
+        "href": "/en-US/docs/Web/CSS/inset-inline-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-inline-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "isolation",
+        "href": "/en-US/docs/Web/CSS/isolation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/isolation",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "justify-content",
+        "href": "/en-US/docs/Web/CSS/justify-content",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "justify-items",
+        "href": "/en-US/docs/Web/CSS/justify-items",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "justify-self",
+        "href": "/en-US/docs/Web/CSS/justify-self",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "justify-tracks",
+        "href": "/en-US/docs/Web/CSS/justify-tracks",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-tracks",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "left",
+        "href": "/en-US/docs/Web/CSS/left",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/left",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "letter-spacing",
+        "href": "/en-US/docs/Web/CSS/letter-spacing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "line-break",
+        "href": "/en-US/docs/Web/CSS/line-break",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/line-break",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "line-height",
+        "href": "/en-US/docs/Web/CSS/line-height",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/line-height",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "line-height-step",
+        "href": "/en-US/docs/Web/CSS/line-height-step",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/line-height-step",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "yes"
+    },
+    {
+        "props": "list-style",
+        "href": "/en-US/docs/Web/CSS/list-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "list-style-image",
+        "href": "/en-US/docs/Web/CSS/list-style-image",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "list-style-position",
+        "href": "/en-US/docs/Web/CSS/list-style-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "list-style-type",
+        "href": "/en-US/docs/Web/CSS/list-style-type",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "margin",
+        "href": "/en-US/docs/Web/CSS/margin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-block",
+        "href": "/en-US/docs/Web/CSS/margin-block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-block-end",
+        "href": "/en-US/docs/Web/CSS/margin-block-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-block-start",
+        "href": "/en-US/docs/Web/CSS/margin-block-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-bottom",
+        "href": "/en-US/docs/Web/CSS/margin-bottom",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-bottom",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-inline",
+        "href": "/en-US/docs/Web/CSS/margin-inline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-inline-end",
+        "href": "/en-US/docs/Web/CSS/margin-inline-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-inline-start",
+        "href": "/en-US/docs/Web/CSS/margin-inline-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-left",
+        "href": "/en-US/docs/Web/CSS/margin-left",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-left",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-right",
+        "href": "/en-US/docs/Web/CSS/margin-right",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-right",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-top",
+        "href": "/en-US/docs/Web/CSS/margin-top",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-top",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "margin-trim",
+        "href": "/en-US/docs/Web/CSS/margin-trim",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-trim",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "mask",
+        "href": "/en-US/docs/Web/CSS/mask",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-border",
+        "href": "/en-US/docs/Web/CSS/mask-border",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-border-mode",
+        "href": "/en-US/docs/Web/CSS/mask-border-mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border-mode",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-border-outset",
+        "href": "/en-US/docs/Web/CSS/mask-border-outset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border-outset",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-border-repeat",
+        "href": "/en-US/docs/Web/CSS/mask-border-repeat",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border-repeat",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-border-slice",
+        "href": "/en-US/docs/Web/CSS/mask-border-slice",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border-slice",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-border-source",
+        "href": "/en-US/docs/Web/CSS/mask-border-source",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border-source",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-border-width",
+        "href": "/en-US/docs/Web/CSS/mask-border-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-border-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-clip",
+        "href": "/en-US/docs/Web/CSS/mask-clip",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-clip",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-composite",
+        "href": "/en-US/docs/Web/CSS/mask-composite",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-composite",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-image",
+        "href": "/en-US/docs/Web/CSS/mask-image",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-image",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-mode",
+        "href": "/en-US/docs/Web/CSS/mask-mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-mode",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-origin",
+        "href": "/en-US/docs/Web/CSS/mask-origin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-origin",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-position",
+        "href": "/en-US/docs/Web/CSS/mask-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-repeat",
+        "href": "/en-US/docs/Web/CSS/mask-repeat",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-repeat",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-size",
+        "href": "/en-US/docs/Web/CSS/mask-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mask-type",
+        "href": "/en-US/docs/Web/CSS/mask-type",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-type",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "masonry-auto-flow",
+        "href": "/en-US/docs/Web/CSS/masonry-auto-flow",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/masonry-auto-flow",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "math-depth",
+        "href": "/en-US/docs/Web/CSS/math-depth",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/math-depth",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "math-shift",
+        "href": "/en-US/docs/Web/CSS/math-shift",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/math-shift",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "yes"
+    },
+    {
+        "props": "math-style",
+        "href": "/en-US/docs/Web/CSS/math-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/math-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "max-block-size",
+        "href": "/en-US/docs/Web/CSS/max-block-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/max-block-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "max-height",
+        "href": "/en-US/docs/Web/CSS/max-height",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/max-height",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "max-inline-size",
+        "href": "/en-US/docs/Web/CSS/max-inline-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/max-inline-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "max-width",
+        "href": "/en-US/docs/Web/CSS/max-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/max-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "min-block-size",
+        "href": "/en-US/docs/Web/CSS/min-block-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/min-block-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "min-height",
+        "href": "/en-US/docs/Web/CSS/min-height",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/min-height",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "min-inline-size",
+        "href": "/en-US/docs/Web/CSS/min-inline-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/min-inline-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "min-width",
+        "href": "/en-US/docs/Web/CSS/min-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/min-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "mix-blend-mode",
+        "href": "/en-US/docs/Web/CSS/mix-blend-mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "object-fit",
+        "href": "/en-US/docs/Web/CSS/object-fit",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "object-position",
+        "href": "/en-US/docs/Web/CSS/object-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "offset",
+        "href": "/en-US/docs/Web/CSS/offset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/offset",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "offset-anchor",
+        "href": "/en-US/docs/Web/CSS/offset-anchor",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/offset-anchor",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "offset-distance",
+        "href": "/en-US/docs/Web/CSS/offset-distance",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/offset-distance",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "offset-path",
+        "href": "/en-US/docs/Web/CSS/offset-path",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/offset-path",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "offset-position",
+        "href": "/en-US/docs/Web/CSS/offset-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/offset-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "offset-rotate",
+        "href": "/en-US/docs/Web/CSS/offset-rotate",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/offset-rotate",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "opacity",
+        "href": "/en-US/docs/Web/CSS/opacity",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/opacity",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "order",
+        "href": "/en-US/docs/Web/CSS/order",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/order",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "orphans",
+        "href": "/en-US/docs/Web/CSS/orphans",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/orphans",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "outline",
+        "href": "/en-US/docs/Web/CSS/outline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "outline-color",
+        "href": "/en-US/docs/Web/CSS/outline-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "outline-offset",
+        "href": "/en-US/docs/Web/CSS/outline-offset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "outline-style",
+        "href": "/en-US/docs/Web/CSS/outline-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "outline-width",
+        "href": "/en-US/docs/Web/CSS/outline-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overflow",
+        "href": "/en-US/docs/Web/CSS/overflow",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overflow-anchor",
+        "href": "/en-US/docs/Web/CSS/overflow-anchor",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-anchor",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overflow-block",
+        "href": "/en-US/docs/Web/CSS/overflow-block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-block",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overflow-clip-margin",
+        "href": "/en-US/docs/Web/CSS/overflow-clip-margin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-clip-margin",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overflow-inline",
+        "href": "/en-US/docs/Web/CSS/overflow-inline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-inline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overflow-wrap",
+        "href": "/en-US/docs/Web/CSS/overflow-wrap",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "overflow-x",
+        "href": "/en-US/docs/Web/CSS/overflow-x",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overflow-y",
+        "href": "/en-US/docs/Web/CSS/overflow-y",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overlay",
+        "href": "/en-US/docs/Web/CSS/overlay",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overlay",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "overscroll-behavior",
+        "href": "/en-US/docs/Web/CSS/overscroll-behavior",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overscroll-behavior-block",
+        "href": "/en-US/docs/Web/CSS/overscroll-behavior-block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-block",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overscroll-behavior-inline",
+        "href": "/en-US/docs/Web/CSS/overscroll-behavior-inline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-inline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overscroll-behavior-x",
+        "href": "/en-US/docs/Web/CSS/overscroll-behavior-x",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-x",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "overscroll-behavior-y",
+        "href": "/en-US/docs/Web/CSS/overscroll-behavior-y",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-y",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding",
+        "href": "/en-US/docs/Web/CSS/padding",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-block",
+        "href": "/en-US/docs/Web/CSS/padding-block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-block",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-block-end",
+        "href": "/en-US/docs/Web/CSS/padding-block-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-block-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-block-start",
+        "href": "/en-US/docs/Web/CSS/padding-block-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-block-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-bottom",
+        "href": "/en-US/docs/Web/CSS/padding-bottom",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-inline",
+        "href": "/en-US/docs/Web/CSS/padding-inline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-inline-end",
+        "href": "/en-US/docs/Web/CSS/padding-inline-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-inline-start",
+        "href": "/en-US/docs/Web/CSS/padding-inline-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-left",
+        "href": "/en-US/docs/Web/CSS/padding-left",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-right",
+        "href": "/en-US/docs/Web/CSS/padding-right",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "padding-top",
+        "href": "/en-US/docs/Web/CSS/padding-top",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "page",
+        "href": "/en-US/docs/Web/CSS/page",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/page",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "page-break-after",
+        "href": "/en-US/docs/Web/CSS/page-break-after",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-after",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "page-break-before",
+        "href": "/en-US/docs/Web/CSS/page-break-before",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-before",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "page-break-inside",
+        "href": "/en-US/docs/Web/CSS/page-break-inside",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-inside",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "paint-order",
+        "href": "/en-US/docs/Web/CSS/paint-order",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/paint-order",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "perspective",
+        "href": "/en-US/docs/Web/CSS/perspective",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/perspective",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "perspective-origin",
+        "href": "/en-US/docs/Web/CSS/perspective-origin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "place-content",
+        "href": "/en-US/docs/Web/CSS/place-content",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-content",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "place-items",
+        "href": "/en-US/docs/Web/CSS/place-items",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-items",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "place-self",
+        "href": "/en-US/docs/Web/CSS/place-self",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-self",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "pointer-events",
+        "href": "/en-US/docs/Web/CSS/pointer-events",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "position",
+        "href": "/en-US/docs/Web/CSS/position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "print-color-adjust",
+        "href": "/en-US/docs/Web/CSS/print-color-adjust",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/print-color-adjust",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "quotes",
+        "href": "/en-US/docs/Web/CSS/quotes",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/quotes",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "resize",
+        "href": "/en-US/docs/Web/CSS/resize",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resize",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "right",
+        "href": "/en-US/docs/Web/CSS/right",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/right",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "rotate",
+        "href": "/en-US/docs/Web/CSS/rotate",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/rotate",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "row-gap",
+        "href": "/en-US/docs/Web/CSS/row-gap",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "ruby-align",
+        "href": "/en-US/docs/Web/CSS/ruby-align",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/ruby-align",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "yes"
+    },
+    {
+        "props": "ruby-position",
+        "href": "/en-US/docs/Web/CSS/ruby-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/ruby-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "scale",
+        "href": "/en-US/docs/Web/CSS/scale",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scale",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-behavior",
+        "href": "/en-US/docs/Web/CSS/scroll-behavior",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin",
+        "href": "/en-US/docs/Web/CSS/scroll-margin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-block",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-block",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-block-end",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-block-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-block-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-block-start",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-block-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-block-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-bottom",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-bottom",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-bottom",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-inline",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-inline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-inline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-inline-end",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-inline-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-inline-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-inline-start",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-inline-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-inline-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-left",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-left",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-left",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-right",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-right",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-right",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-margin-top",
+        "href": "/en-US/docs/Web/CSS/scroll-margin-top",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding",
+        "href": "/en-US/docs/Web/CSS/scroll-padding",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-block",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-block",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-block-end",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-block-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-block-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-block-start",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-block-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-block-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-bottom",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-bottom",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-bottom",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-inline",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-inline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-inline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-inline-end",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-inline-end",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-inline-end",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-inline-start",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-inline-start",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-inline-start",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-left",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-left",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-left",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-right",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-right",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-right",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-padding-top",
+        "href": "/en-US/docs/Web/CSS/scroll-padding-top",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-snap-align",
+        "href": "/en-US/docs/Web/CSS/scroll-snap-align",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-snap-stop",
+        "href": "/en-US/docs/Web/CSS/scroll-snap-stop",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-stop",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-snap-type",
+        "href": "/en-US/docs/Web/CSS/scroll-snap-type",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-timeline",
+        "href": "/en-US/docs/Web/CSS/scroll-timeline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-timeline-axis",
+        "href": "/en-US/docs/Web/CSS/scroll-timeline-axis",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline-axis",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "scroll-timeline-name",
+        "href": "/en-US/docs/Web/CSS/scroll-timeline-name",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline-name",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "scrollbar-color",
+        "href": "/en-US/docs/Web/CSS/scrollbar-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "scrollbar-gutter",
+        "href": "/en-US/docs/Web/CSS/scrollbar-gutter",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-gutter",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "scrollbar-width",
+        "href": "/en-US/docs/Web/CSS/scrollbar-width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "shape-image-threshold",
+        "href": "/en-US/docs/Web/CSS/shape-image-threshold",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-image-threshold",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "shape-margin",
+        "href": "/en-US/docs/Web/CSS/shape-margin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-margin",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "shape-outside",
+        "href": "/en-US/docs/Web/CSS/shape-outside",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "tab-size",
+        "href": "/en-US/docs/Web/CSS/tab-size",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "table-layout",
+        "href": "/en-US/docs/Web/CSS/table-layout",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "text-align",
+        "href": "/en-US/docs/Web/CSS/text-align",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-align",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-align-last",
+        "href": "/en-US/docs/Web/CSS/text-align-last",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-align-last",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-combine-upright",
+        "href": "/en-US/docs/Web/CSS/text-combine-upright",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-combine-upright",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-decoration",
+        "href": "/en-US/docs/Web/CSS/text-decoration",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "text-decoration-color",
+        "href": "/en-US/docs/Web/CSS/text-decoration-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "text-decoration-line",
+        "href": "/en-US/docs/Web/CSS/text-decoration-line",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "text-decoration-skip",
+        "href": "/en-US/docs/Web/CSS/text-decoration-skip",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-decoration-skip-ink",
+        "href": "/en-US/docs/Web/CSS/text-decoration-skip-ink",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip-ink",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-decoration-style",
+        "href": "/en-US/docs/Web/CSS/text-decoration-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "text-decoration-thickness",
+        "href": "/en-US/docs/Web/CSS/text-decoration-thickness",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "text-emphasis",
+        "href": "/en-US/docs/Web/CSS/text-emphasis",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-emphasis-color",
+        "href": "/en-US/docs/Web/CSS/text-emphasis-color",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis-color",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-emphasis-position",
+        "href": "/en-US/docs/Web/CSS/text-emphasis-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-emphasis-style",
+        "href": "/en-US/docs/Web/CSS/text-emphasis-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-indent",
+        "href": "/en-US/docs/Web/CSS/text-indent",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-justify",
+        "href": "/en-US/docs/Web/CSS/text-justify",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-justify",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-orientation",
+        "href": "/en-US/docs/Web/CSS/text-orientation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-overflow",
+        "href": "/en-US/docs/Web/CSS/text-overflow",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "text-rendering",
+        "href": "/en-US/docs/Web/CSS/text-rendering",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-shadow",
+        "href": "/en-US/docs/Web/CSS/text-shadow",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-size-adjust",
+        "href": "/en-US/docs/Web/CSS/text-size-adjust",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-transform",
+        "href": "/en-US/docs/Web/CSS/text-transform",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-underline-offset",
+        "href": "/en-US/docs/Web/CSS/text-underline-offset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-underline-position",
+        "href": "/en-US/docs/Web/CSS/text-underline-position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-position",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-wrap",
+        "href": "/en-US/docs/Web/CSS/text-wrap",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "text-wrap-mode",
+        "href": "/en-US/docs/Web/CSS/text-wrap-mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap-mode",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": ""
+    },
+    {
+        "props": "text-wrap-style",
+        "href": "/en-US/docs/Web/CSS/text-wrap-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": ""
+    },
+    {
+        "props": "timeline-scope",
+        "href": "/en-US/docs/Web/CSS/timeline-scope",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/timeline-scope",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "top",
+        "href": "/en-US/docs/Web/CSS/top",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/top",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "touch-action",
+        "href": "/en-US/docs/Web/CSS/touch-action",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transform",
+        "href": "/en-US/docs/Web/CSS/transform",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transform-box",
+        "href": "/en-US/docs/Web/CSS/transform-box",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-box",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transform-origin",
+        "href": "/en-US/docs/Web/CSS/transform-origin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transform-style",
+        "href": "/en-US/docs/Web/CSS/transform-style",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transition",
+        "href": "/en-US/docs/Web/CSS/transition",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transition-behavior",
+        "href": "/en-US/docs/Web/CSS/transition-behavior",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-behavior",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transition-delay",
+        "href": "/en-US/docs/Web/CSS/transition-delay",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transition-duration",
+        "href": "/en-US/docs/Web/CSS/transition-duration",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transition-property",
+        "href": "/en-US/docs/Web/CSS/transition-property",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "transition-timing-function",
+        "href": "/en-US/docs/Web/CSS/transition-timing-function",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "translate",
+        "href": "/en-US/docs/Web/CSS/translate",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/translate",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "unicode-bidi",
+        "href": "/en-US/docs/Web/CSS/unicode-bidi",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "user-modify",
+        "href": "/en-US/docs/Web/CSS/user-modify",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/user-modify",
+        "nonStandard": true,
+        "deprecated": true,
+        "experimental": false,
+        "inherit": ""
+    },
+    {
+        "props": "user-select",
+        "href": "/en-US/docs/Web/CSS/user-select",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/user-select",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "vertical-align",
+        "href": "/en-US/docs/Web/CSS/vertical-align",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "view-timeline",
+        "href": "/en-US/docs/Web/CSS/view-timeline",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/view-timeline",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "view-timeline-axis",
+        "href": "/en-US/docs/Web/CSS/view-timeline-axis",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/view-timeline-axis",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "view-timeline-inset",
+        "href": "/en-US/docs/Web/CSS/view-timeline-inset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/view-timeline-inset",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "view-timeline-name",
+        "href": "/en-US/docs/Web/CSS/view-timeline-name",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/view-timeline-name",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "view-transition-name",
+        "href": "/en-US/docs/Web/CSS/view-transition-name",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/view-transition-name",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": true,
+        "inherit": "no"
+    },
+    {
+        "props": "visibility",
+        "href": "/en-US/docs/Web/CSS/visibility",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/visibility",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "white-space",
+        "href": "/en-US/docs/Web/CSS/white-space",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/white-space",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "white-space-collapse",
+        "href": "/en-US/docs/Web/CSS/white-space-collapse",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/white-space-collapse",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "widows",
+        "href": "/en-US/docs/Web/CSS/widows",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/widows",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "width",
+        "href": "/en-US/docs/Web/CSS/width",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/width",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "will-change",
+        "href": "/en-US/docs/Web/CSS/will-change",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/will-change",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "word-break",
+        "href": "/en-US/docs/Web/CSS/word-break",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/word-break",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "word-spacing",
+        "href": "/en-US/docs/Web/CSS/word-spacing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "writing-mode",
+        "href": "/en-US/docs/Web/CSS/writing-mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "yes"
+    },
+    {
+        "props": "z-index",
+        "href": "/en-US/docs/Web/CSS/z-index",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/z-index",
+        "nonStandard": false,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    },
+    {
+        "props": "zoom",
+        "href": "/en-US/docs/Web/CSS/zoom",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/zoom",
+        "nonStandard": true,
+        "deprecated": false,
+        "experimental": false,
+        "inherit": "no"
+    }
+]

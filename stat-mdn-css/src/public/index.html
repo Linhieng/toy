@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>查看所有 css 样式的可继承性</title>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="container">
+        <label for="toggleInherit">切换是否可继承</label>
+        <input type="checkbox" id="toggleInherit">
+        <div class="show-box">
+            <details class="canInherit">
+                <summary>可继承</summary>
+                <div class="props-box"></div>
+            </details>
+            <details class="notInherit">
+                <summary>不可继承</summary>
+                <div class="props-box"></div>
+            </details>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="./index.css">
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
