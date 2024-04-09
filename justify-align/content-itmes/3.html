@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> </head>
+<body>
+    <h2>place-content</h2>
+    <div class="grid">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <style>
+        .grid {
+            --a: place-content 6s linear infinite both;
+
+            box-shadow: 0 0 20px #e1e1e1;
+            width: 400px;
+            height: 400px;
+            display: grid;
+            grid-template-rows: repeat(3, 100px);
+            grid-template-columns: repeat(3, 100px);
+            animation: var(--a);
+            &::after {
+                content: 'start';
+                animation: var(--a);
+            }
+             & .item {
+                background: radial-gradient(black, transparent);
+             }
+        }
+        @keyframes place-content {
+            0%      { content: 'start';             place-content: start; }
+            16.6666%{ content: 'center';            place-content: center; }
+            33.3333%{ content: 'end';               place-content: end; }
+            50%     { content: 'space-between';     place-content: space-between; }
+            66.6666%{ content: 'space-around';      place-content: space-around; }
+            83.6666%{ content: 'space-evenly';      place-content: space-evenly; }
+        }
+    </style>
+</body>
+</html>

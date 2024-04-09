@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid 中 *-content 和 *-align 的作用</title>
+</head>
+
+<body>
+    <style>
+        x{
+            display: inline-block;
+            width: 2rem;
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            &>* {
+                margin: 10px;
+            }
+        }
+
+        iframe {
+            width: 420px;
+            height: 500px;
+        }
+    </style>
+
+    <h1>grid 中 *-content 和 *-align 的作用</h1>
+    <p>
+        首先，grid 容器的大小设置为 400px 和 400px
+        <br>然后，grid 中的网格设置为 repeat(3, 100px) 和 repeat(3, 100px)
+        <br>最后，点开调试控制台，然后依次切换 *-content 的值，就能看到效果了！
+        <br>结论是：*-content 并不会改变 item 子项的大小，只会改变每个单元格的位置。
+        <br>比如 start、center、end 是将整个网格放置在左中右位置上
+        <br>而 space-between、space-around、space-evenly 是将每个方向上的单元格进行排列，效果上就和 flex 中的一样。
+        <br>
+        <img src="./1.png" alt="" style="width:400px;" >
+        <img src="./2.png" alt="" style="width:400px;" >
+        <br>图中的蓝线，指的就是网格。
+        <br>图中的绿线，指的就是单元格
+        <br>而实际 grid 子项，指的是阴影部分，它的大小并不总是等于单元格的大小！
+        <br>grid 中的 -item 控制的就是 grid 子项的大小和位置。
+        <br><x></x>当只有当子项没有设置宽高时，才可以通过 -item 控制大小。
+        <br><x></x><x></x>比如 normal 或者 stretch 值就是将子项在水平或垂直方向上撑满单元格。
+        <br><x></x><x></x>而如果设置 start、center、end，则会将子项设置为最小宽高，然后在将其放置在单元格中的 start、center、end 位置上。
+        <br><x></x>当子项设置了宽高，那么 stretch 将不生效，而 start、center、end 的效果不变，就是将其放置在单元格中的 start、center、end 位置上！
+    </p>
+    <ul>
+        <li> loading... <!-- <iframe src="./1.html" frameborder="0"></iframe> --></li>
+        <li> loading... <!-- <iframe src="./2.html" frameborder="0"></iframe> --></li>
+        <li> loading... <!-- <iframe src="./3.html" frameborder="0"></iframe> --></li>
+        <li> loading... <!-- <iframe src="./4.html" frameborder="0"></iframe> --></li>
+        <li> loading... <!-- <iframe src="./5.html" frameborder="0"></iframe> --></li>
+        <li> loading... <!-- <iframe src="./6.html" frameborder="0"></iframe> --></li>
+    </ul>
+    <script>
+        const lis = document.querySelectorAll('ul> li')
+            document.addEventListener('DOMContentLoaded', () => {
+                lis.forEach((li, i) => {
+                    li.innerHTML = `<iframe src="./${i+1}.html" frameborder="0"></iframe>`
+                })
+            })
+    </script>
+</body>
+
+</html>
