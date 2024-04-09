@@ -1,0 +1,10 @@
+{
+    "include": [
+        "index.ts",
+    ],
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+    },
+    "exclude": [ "node_modules", ],
+}

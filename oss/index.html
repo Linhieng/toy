@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/index.min.js"></script> -->
+  <script type="importmap">
+    {
+      "imports": {
+        "crypto-js": "https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/+esm"
+      }
+    }
+    </script>
+</head>
+
+<body>
+  <form>
+    <li>用户的 AccessKey ID: <input type="text" name="AccessKeyID" required></li>
+    <li>用户的 AccessKey Secret: <input type="text" name="AccessKeySecret" required></li>
+    <li>oss 对象区域 <input type="text" name="oss-region" required placeholder="比如 oss-cn-shenzhen"></li>
+    <li>bucket 对象名称 <input type="text" name="bucket-name" required placeholder="添加你自己创建 bucket 时定义的名称"></li>
+    <input type="file" name="file" required>
+    <button type="submit" id="btn-submit">上传文件</button>
+  </form>
+  <p id="show-location"></p>
+
+  <style>
+    button {
+      display: block;
+      width: 100px;
+      height: 40px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    img {
+      width: 300px;
+      box-shadow: 0 0 6px #333;
+    }
+  </style>
+
+  <script type="module" src="index.js"></script>
+
+</body>
+
+</html>
