@@ -1,0 +1,9 @@
+{
+  "name": "pinyin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "linhieng",
+  "devDependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
