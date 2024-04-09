@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-伪元素导致的溢出</title>
+</head>
+
+<body>
+    <div class="container">
+        <label class="box"> <input type="radio" name="radios" id=""> </label>
+        <label class="box"> <input type="radio" name="radios" id=""> </label>
+        <label class="box"> <input type="radio" name="radios" id=""> </label>
+        <label class="box"> <input type="radio" name="radios" id=""> </label>
+        <label class="box"> <input type="radio" name="radios" id=""> </label>
+    </div>
+
+    <style>
+        .box {
+            position: relative;
+        }
+
+        .box::after {
+            content: 'ENTRY';
+            position: absolute;
+            bottom: 20px;
+            background: #000;
+            color: #fff;
+            padding: 10px 10px 10px 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+
+            /* 🌟罪魁祸首在这里🌟 */
+            transform: translateY(60px);
+
+            opacity: 0;
+            transition: all 400ms;
+        }
+
+        .box:hover::after {
+            transform: translateY(0);
+            opacity: 1;
+            transition-delay: 300ms;
+        }
+    </style>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 300px;
+            height: 100vh;
+            outline: 1px solid black;
+            margin: auto;
+
+            display: grid;
+            gap: 1rem;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            transition: all 300ms;
+        }
+
+        .box {
+            background-color: skyblue;
+        }
+
+        .container:has(.box:nth-of-type(1):hover) {
+            grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+        }
+
+        .container:has(.box:nth-of-type(2):hover) {
+            grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
+        }
+
+        .container:has(.box:nth-of-type(3):hover) {
+            grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
+        }
+
+        .container:has(.box:nth-of-type(4):hover) {
+            grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+        }
+
+        .container:has(.box:nth-of-type(5):hover) {
+            grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
+        }
+
+        .box:nth-of-type(odd) {
+            transform: translateX(-16px);
+        }
+
+        .box:nth-of-type(even) {
+            transform: translateX(16px);
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-image: var(--img);
+            background-size: cover;
+        }
+
+        input[type=radio] {
+            opacity: 0;
+        }
+    </style>
+
+</body>
+
+</html>

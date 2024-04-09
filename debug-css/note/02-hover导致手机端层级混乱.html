@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-hover导致手机端层级混乱</title>
+</head>
+
+<body>
+    <div>
+        <label>
+            <input type="radio" name="radios">
+            <button>按钮</button>
+        </label>
+        <label>
+            <input type="radio" name="radios">
+            <button>按钮</button>
+        </label>
+    </div>
+
+    <style>
+        label {
+            display: block;
+            width: 200px;
+            height: 100px;
+            margin: 30px;
+            background-color: skyblue;
+            position: relative;
+        }
+
+        button {
+            width: 100px;
+            height: 40px;
+            margin: 20px;
+            position: absolute;
+        }
+
+        input[type=radio] {
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        button:active {
+            background-color: skyblue;
+            transform: translateX(10px);
+        }
+
+        input[type=radio] {
+            z-index: 11;
+        }
+
+        button {
+            position: relative;
+            z-index: 10;
+        }
+
+
+        input:checked {
+            z-index: 8;
+        }
+
+        /*
+            需求：
+                未被 checked 时，让 input 层级在上
+                checked 后，让 input 层级在下
+            上面代码可以工作，但添加下面代码后，则会失效
+        */
+
+        /*  问题在这里！虽然手机端没有鼠标，但手机端的元素同样能够能够获得 hover 的状态
+            该案例中按钮和 radio 是错开的，当点击按钮露出来的部分时，按钮的层级会被提高，
+            但此时 radio 并没有被选中！
+            这就导致点击某片区域时 input 不生效的问题！
+        */
+        label:hover input {
+            z-index: 8;
+        }
+
+        /* 解决方案就是将 hover 的代码放在媒体查询中 */
+        /* @media (hover: hover) {
+            label:hover input {
+                z-index: 8;
+            }
+        } */
+    </style>
+
+</body>
+
+</html>
