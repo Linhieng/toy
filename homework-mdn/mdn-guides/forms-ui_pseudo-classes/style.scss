@@ -1,0 +1,356 @@
+@layer base,
+special-pseudo-class;
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin        : 0;
+    padding-bottom: 100px;
+    box-sizing    : border-box;
+    min-height    : 100vh;
+
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    form {
+        width: 500px;
+    }
+}
+
+@font-face {
+    font-family: "handwriting";
+    src        :
+        url("fonts/journal-webfont.woff2") format("woff2"),
+        url("fonts/journal-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src        :
+        url("fonts/JosefinSans.woff2") format("woff2");
+    font-weight: normal;
+    font-style : normal;
+}
+
+legend,
+label,
+button {
+    font:
+        1.5rem "handwriting",
+        monospace;
+}
+
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************** 分割线 ***************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+
+@layer base {
+    form {
+        min-width: 300px;
+        max-width: 90%;
+
+        // 基本框架
+        fieldset {
+            margin : 20px 0;
+            padding: 20px 10px 20px 20px;
+
+            legend {
+                color           : #FFF;
+                background-color: #000;
+                padding         : 4px 8px;
+            }
+
+            ul {
+                margin : 0;
+                padding: 0;
+
+                label {
+                    text-transform: capitalize;
+                }
+
+                &.grid-radio-wrapper {
+                    display              : grid;
+                    grid-template-columns: minmax(20px, auto) 1fr;
+                    align-items          : stretch;
+                    row-gap              : 10px;
+
+                    li {
+                        display: contents;
+                    }
+
+                    input[type="radio"] {
+                        margin: 0;
+                    }
+
+                    label {
+                        padding-left: 10px;
+                    }
+                }
+
+                &.flex-text-wrapper {
+                    gap      : 20px;
+                    display  : flex;
+                    flex-flow: column wrap;
+
+                    li {
+                        display  : flex;
+                        flex-flow: row wrap;
+
+                        // 请确保不会影响无障碍效果
+                        input.reverse-input-label {
+                            // 使用负数是因为：　如果 span 提前渲染, 则高度为 0
+                            order: -10;
+
+                            &~label {
+                                order: -20;
+                            }
+                        }
+
+                        input {
+
+                            &[type="text"],
+                            &[type="email"],
+                            &[type="number"] {
+                                flex         : 1 0 auto;
+                                padding      : 2px 10px;
+                                min-width    : 100px;
+                                height       : 30px;
+                                outline      : 1px solid #999;
+                                border       : none;
+                                border-radius: 2px;
+
+                                &:focus {
+                                    box-shadow      : inset 1px 1px 3px #ccc;
+                                    background-color: #f3f3f3;
+                                }
+                            }
+
+                            &[type="checkbox"] {
+                                flex  : none;
+                                width : 30px;
+                                margin: 0 30px 0 0;
+                                cursor: pointer;
+
+                                &+label {
+                                    flex  : 1 0 auto;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+
+                        label {
+                            &.one-line {
+                                width         : 100%;
+                                padding-bottom: 4px;
+                            }
+                        }
+
+                        span {
+                            flex: 0 0 30px;
+
+                            position       : relative;
+                            display        : flex;
+                            justify-content: center;
+                            align-items    : center;
+                        }
+                    }
+                }
+
+                &.grid-vertical-alignment {
+                    display              : grid;
+                    grid-template-columns: 1fr 2fr;
+                    gap                  : 4px;
+
+                    li {
+                        display: contents; // 效果： 能将 <li> 变成 vue 中的 <template>
+                    }
+
+                    input {
+                        border : none;
+                        padding: 8px 4px 4px 4px;
+                    }
+
+                    label {
+                        justify-self: end;
+                    }
+
+                }
+            }
+
+        }
+
+        >div {
+            display: grid;
+
+            button {
+                width  : 60%;
+                margin : auto;
+                padding: 10px;
+            }
+        }
+
+    }
+}
+
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************** 分割线 ***************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+// * ************************************************************** * \\
+
+
+// 应用伪类优化样式
+@layer special-pseudo-class {
+
+    input:focus {
+        box-shadow: inset 1px 1px 3px #FF000055;
+    }
+
+    // 添加 "必选" 样式
+    input:required {
+        &~span::before {
+            content : '*required';
+            position: absolute;
+            bottom  : 100%;
+            right   : 100%;
+
+            font            : 1rem 'Josefin Sans', sans-serif;
+            background-color: black;
+            color           : white;
+            display         : block;
+            padding         : 6px;
+        }
+    }
+
+
+    // 匹配 "无效" 样式
+    input:invalid {
+        outline-color: red;
+
+        &~span:after {
+            content: '❌';
+            color  : red;
+        }
+    }
+
+    // 添加 "有效" 样式
+    input:valid~span:after {
+        content: '✔️';
+        color  : green;
+    }
+
+    // 添加 "disabled" 样式
+    input:disabled {
+        background: #eee;
+        border    : 1px solid #ccc;
+
+        &~label.disabled-label {
+            color: #aaa;
+        }
+
+        &~span::before {
+            visibility: hidden;
+        }
+    }
+
+
+    // 添加　“只读”　样式。
+    :is(input:read-only,
+        input:-moz-read-only) {
+        outline         : none;
+        box-shadow      : none;
+        background-color: white;
+
+        &:focus {
+            outline: 1px solid #ccc;
+        }
+    }
+
+    // 单选框
+    input[type="radio"] {
+        $color            : lightskyblue;
+        -webkit-appearance: none;
+        appearance        : none;
+        align-self        : center;
+
+        width        : 20px;
+        height       : 20px;
+        border-radius: 100%;
+        border       : 2px solid lightgray;
+
+        &:default~label {
+            position: relative;
+            width   : max-content;
+
+            &::after {
+                content         : "Default";
+                position        : absolute;
+                left            : calc(100% + 10px);
+                top             : 50%;
+                transform       : translateY(-50%);
+                padding         : 2px 4px 0 4px;
+                font            : 0.7rem 'Josefin Sans', sans-serif;
+                color           : white;
+                background-color: black;
+            }
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &::before {
+            display         : block;
+            content         : "";
+            width           : 10px;
+            height          : 10px;
+            border-radius   : 6px;
+            background-color: $color;
+            transform       : translate(3px, 3px) scale(0);
+            transition      : all 0.3s ease-in;
+        }
+
+        &:checked::before {
+            transform : translate(3px, 3px) scale(1);
+            transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+        }
+
+        &:indeterminate {
+            border   : 2px solid $color;
+            animation: 0.4s linear infinite alternate border-pulse;
+        }
+
+        @keyframes border-pulse {
+            from {
+                border: 2px solid $color;
+            }
+
+            to {
+                border: 6px solid $color;
+            }
+        }
+    }
+
+}

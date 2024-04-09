@@ -1,0 +1,254 @@
+@charset "UTF-8";
+@layer base,
+special-pseudo-class;
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  form {
+    width: 500px;
+  }
+}
+@font-face {
+  font-family: "handwriting";
+  src: url("fonts/journal-webfont.woff2") format("woff2"), url("fonts/journal-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("fonts/JosefinSans.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+legend,
+label,
+button {
+  font: 1.5rem "handwriting", monospace;
+}
+
+@layer base {
+  form {
+    min-width: 300px;
+    max-width: 90%;
+  }
+  form fieldset {
+    margin: 20px 0;
+    padding: 20px 10px 20px 20px;
+  }
+  form fieldset legend {
+    color: #FFF;
+    background-color: #000;
+    padding: 4px 8px;
+  }
+  form fieldset ul {
+    margin: 0;
+    padding: 0;
+  }
+  form fieldset ul label {
+    text-transform: capitalize;
+  }
+  form fieldset ul.grid-radio-wrapper {
+    display: grid;
+    grid-template-columns: minmax(20px, auto) 1fr;
+    align-items: stretch;
+    row-gap: 10px;
+  }
+  form fieldset ul.grid-radio-wrapper li {
+    display: contents;
+  }
+  form fieldset ul.grid-radio-wrapper input[type=radio] {
+    margin: 0;
+  }
+  form fieldset ul.grid-radio-wrapper label {
+    padding-left: 10px;
+  }
+  form fieldset ul.flex-text-wrapper {
+    gap: 20px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  form fieldset ul.flex-text-wrapper li {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  form fieldset ul.flex-text-wrapper li input.reverse-input-label {
+    order: -10;
+  }
+  form fieldset ul.flex-text-wrapper li input.reverse-input-label ~ label {
+    order: -20;
+  }
+  form fieldset ul.flex-text-wrapper li input[type=text], form fieldset ul.flex-text-wrapper li input[type=email], form fieldset ul.flex-text-wrapper li input[type=number] {
+    flex: 1 0 auto;
+    padding: 2px 10px;
+    min-width: 100px;
+    height: 30px;
+    outline: 1px solid #999;
+    border: none;
+    border-radius: 2px;
+  }
+  form fieldset ul.flex-text-wrapper li input[type=text]:focus, form fieldset ul.flex-text-wrapper li input[type=email]:focus, form fieldset ul.flex-text-wrapper li input[type=number]:focus {
+    box-shadow: inset 1px 1px 3px #ccc;
+    background-color: #f3f3f3;
+  }
+  form fieldset ul.flex-text-wrapper li input[type=checkbox] {
+    flex: none;
+    width: 30px;
+    margin: 0 30px 0 0;
+    cursor: pointer;
+  }
+  form fieldset ul.flex-text-wrapper li input[type=checkbox] + label {
+    flex: 1 0 auto;
+    cursor: pointer;
+  }
+  form fieldset ul.flex-text-wrapper li label.one-line {
+    width: 100%;
+    padding-bottom: 4px;
+  }
+  form fieldset ul.flex-text-wrapper li span {
+    flex: 0 0 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form fieldset ul.grid-vertical-alignment {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4px;
+  }
+  form fieldset ul.grid-vertical-alignment li {
+    display: contents;
+  }
+  form fieldset ul.grid-vertical-alignment input {
+    border: none;
+    padding: 8px 4px 4px 4px;
+  }
+  form fieldset ul.grid-vertical-alignment label {
+    justify-self: end;
+  }
+  form > div {
+    display: grid;
+  }
+  form > div button {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+  }
+}
+@layer special-pseudo-class {
+  input:focus {
+    box-shadow: inset 1px 1px 3px rgba(255, 0, 0, 0.3333333333);
+  }
+  input:required ~ span::before {
+    content: "*required";
+    position: absolute;
+    bottom: 100%;
+    right: 100%;
+    font: 1rem "Josefin Sans", sans-serif;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 6px;
+  }
+  input:invalid {
+    outline-color: red;
+  }
+  input:invalid ~ span:after {
+    content: "❌";
+    color: red;
+  }
+  input:valid ~ span:after {
+    content: "✔️";
+    color: green;
+  }
+  input:disabled {
+    background: #eee;
+    border: 1px solid #ccc;
+  }
+  input:disabled ~ label.disabled-label {
+    color: #aaa;
+  }
+  input:disabled ~ span::before {
+    visibility: hidden;
+  }
+  :is(input:read-only,
+input:-moz-read-only) {
+    outline: none;
+    box-shadow: none;
+    background-color: white;
+  }
+  :is(input:read-only,
+input:-moz-read-only):focus {
+    outline: 1px solid #ccc;
+  }
+  input[type=radio] {
+    -webkit-appearance: none;
+    appearance: none;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid lightgray;
+  }
+  input[type=radio]:default ~ label {
+    position: relative;
+    width: max-content;
+  }
+  input[type=radio]:default ~ label::after {
+    content: "Default";
+    position: absolute;
+    left: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2px 4px 0 4px;
+    font: 0.7rem "Josefin Sans", sans-serif;
+    color: white;
+    background-color: black;
+  }
+  input[type=radio]:focus {
+    outline: none;
+  }
+  input[type=radio]::before {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: lightskyblue;
+    transform: translate(3px, 3px) scale(0);
+    transition: all 0.3s ease-in;
+  }
+  input[type=radio]:checked::before {
+    transform: translate(3px, 3px) scale(1);
+    transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+  }
+  input[type=radio]:indeterminate {
+    border: 2px solid lightskyblue;
+    animation: 0.4s linear infinite alternate border-pulse;
+  }
+  @keyframes border-pulse {
+    from {
+      border: 2px solid lightskyblue;
+    }
+    to {
+      border: 6px solid lightskyblue;
+    }
+  }
+}

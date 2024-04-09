@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+  <title>UI pseudo-classes</title>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./main.js"></script>
+</head>
+
+<body>
+
+  <form>
+    <fieldset>
+      <legend>Gender</legend>
+      <ul class="grid-radio-wrapper">
+        <li>
+          <input type="radio" name="gender" value="male" id="male">
+          <label for="male"> male </label>
+        </li>
+        <li>
+          <input type="radio" name="gender" value="privacy" id="privacy" checked>
+          <label for="privacy"> privacy </label>
+        </li>
+        <li>
+          <input type="radio" name="gender" value="female" id="female">
+          <label for="female"> female </label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>Choose your favourite fruit</legend>
+      <ul class="grid-radio-wrapper">
+        <li>
+          <input type="radio" name="fruit" value="cherry" id="cherry">
+          <label for="cherry"> Cherry </label>
+        </li>
+        <li>
+          <input type="radio" name="fruit" value="banana" id="banana">
+          <label for="banana"> Banana </label>
+        </li>
+        <li>
+          <input type="radio" name="fruit" value="Strawberry" id="strawberry">
+          <label for="strawberry"> Strawberry </label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>Feedback form</legend>
+      <ul class="flex-text-wrapper">
+        <li>
+          <label for="fname" class="one-line">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </li>
+        <li>
+          <label for="lname" class="one-line">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </li>
+        <li>
+          <label for="lname" class="one-line">Age (must be 12+): </label>
+          <input id="age" name="age" type="number" min="12" max="120" required>
+          <span></span>
+        </li>
+        <li>
+          <label for="email" class="one-line"> Email address (include if you want a response): </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>Shipping address</legend>
+      <ul class="grid-vertical-alignment">
+        <li>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" readonly value="Alan Smith" />
+        </li>
+        <li>
+          <label for="address1"> Address: </label>
+          <input id="address1" name="address1" type="text" readonly value="Guangdong China" />
+        </li>
+        <li>
+          <label for="pcode1"> Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" readonly value="510000" />
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset id="billing">
+      <legend>Billing address</legend>
+      <ul class="flex-text-wrapper">
+        <!--
+          注意, 这里将 input 和 label 标签颠倒过来了, 视觉上可以利用 flex 的 order 修改过来, 无障碍上, 朗读时不会读出 input 框, 所以没影响。
+          如果有影响的话, 这里就不能这样使用。 故保留 label 的 .disabled-label 类名
+         -->
+        <li>
+          <input type="checkbox" id="billing-checkbox" checked class="reverse-input-label" />
+          <label for="billing-checkbox">Same as shipping address:</label>
+        </li>
+        <li>
+          <input id="name" name="name" type="text" disabled required class="reverse-input-label" />
+          <label for="name" class="one-line billing-label disabled-label">Name: </label>
+          <span></span>
+        </li>
+        <li>
+          <input id="address2" name="address2" type="text" disabled required class="reverse-input-label" />
+          <label for="address2" class="one-line billing-label disabled-label"> Address: </label>
+          <span></span>
+        </li>
+        <li>
+          <input id="pcode2" name="pcode2" type="text" disabled required class="reverse-input-label" />
+          <label for="pcode2" class="one-line billing-label disabled-label"> Zip/postal code: </label>
+          <span></span>
+        </li>
+      </ul>
+    </fieldset>
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+
+
+
+</body>
+
+</html>
