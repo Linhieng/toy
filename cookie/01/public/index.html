@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>01 同源请求下 cookie 生效案例</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <button>login</button>
+    <button>test cookie</button>
+    <script>
+        const btn = document.querySelectorAll('button')
+        const btn1 = btn[0]
+        const btn2 = btn[1]
+        btn1.onclick = () => {
+            fetch('http://localhost:3001/login', {method: 'get'})
+        }
+        btn2.onclick = () => {
+            fetch('http://localhost:3001/get', {method: 'get'})
+        }
+    </script>
+</body>
+</html>

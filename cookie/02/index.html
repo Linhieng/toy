@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>02 通过 nginx 配置 https 和反向代理实现第三方 cookie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+</head>
+
+<body>
+    <p><b>注意！第三方 cookie 即将被废弃，这意味着以后在新的浏览器中这些方法将无法存储和携带 cookie！</b></p>
+    <button>login</button>
+    <button>test cookie</button>
+<pre>
+# nginx 配置 https
+events {
+    worker_connections  1024;
+}
+
+http {
+    server {
+        listen 443 ssl;
+        listen [::]:443 ssl;
+        server_name localhost;
+        location / { proxy_pass      http://localhost:8002; }
+        # 运行 mkcert localhost 生成证书
+        ssl_certificate      c:\Users\keety\Downloads\localhost+1.pem;
+        ssl_certificate_key  c:\Users\keety\Downloads\localhost+1-key.pem;
+    }
+    server {
+        listen 443 ssl;
+        listen [::]:443 ssl;
+        server_name api.localhost;
+        location / { proxy_pass      http://localhost:3002; }
+        # 运行 mkcert api.localhost 生成证书
+        ssl_certificate      c:\Users\keety\Downloads\api\api.localhost.pem;
+        ssl_certificate_key  c:\Users\keety\Downloads\api\api.localhost-key.pem;
+    }
+
+}
+
+</pre>
+
+    <script>
+        // axios 在这里设置是无效的
+        // axios.default.withCredentials = true
+        const btn = document.querySelectorAll('button')
+        const btn1 = btn[0]
+        const btn2 = btn[1]
+        btn1.onclick = () => {
+            fetch('https://api.localhost/login', {method: 'get', credentials: 'include'})
+            // 使用 axios 时需要设置 withCredentials，不然不会接受 cookie
+            // axios.get('https://api.localhost/login', { withCredentials: true })
+        }
+        btn2.onclick = () => {
+            fetch('https://api.localhost/get', {method: 'get', credentials: 'include'})
+            // 使用 axios 时需要设置 withCredentials，不然不会携带 cookie
+            // axios.get('https://api.localhost/get', { withCredentials: true, })
+        }
+    </script>
+</body>
+
+</html>

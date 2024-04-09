@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test01": "nodemon 01/server.js",
+    "test02-client": "nodemon 02/client.js",
+    "test02-server": "nodemon 02/server.js",
+    "test03-client": "nodemon 03/client.js",
+    "test03-server": "nodemon 03/server.js",
+    "test03-client-env": "node --env-file=.env  03/client.js",
+    "test03-server-env": "node --env-file=.env  03/server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}

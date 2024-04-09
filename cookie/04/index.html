@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>Document</title>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <button>发送</button>
+    <script>
+        const btn = document.querySelector('button')
+        btn.addEventListener('click', async () => {
+            const res = await fetch('http://api.hello.localhost/')
+            console.log(await res.text())
+        })
+    </script>
+</body>
+
+</html>

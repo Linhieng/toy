@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>03 原生 https 模块实现 https</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+</head>
+
+<body>
+    <button>login</button>
+    <button>test cookie</button>
+
+    <script>
+        // 在这里设置是无效的
+        // axios.default.withCredentials = true
+        const btn = document.querySelectorAll('button')
+        const btn1 = btn[0]
+        const btn2 = btn[1]
+        btn1.onclick = () => {
+            fetch('https://api.localhost:3003/login', {method: 'get', credentials: 'include'})
+            // 使用 axios 时需要设置 withCredentials，不然不会接受 cookie
+            // axios.get('https://api.localhost:3003/login', { withCredentials: true })
+        }
+        btn2.onclick = () => {
+            fetch('https://api.localhost:3003/get', {method: 'get', credentials: 'include'})
+            // 使用 axios 时需要设置 withCredentials，不然不会携带 cookie
+            // axios.get('https://api.localhost:3003/get', { withCredentials: true, })
+        }
+    </script>
+</body>
+
+</html>
