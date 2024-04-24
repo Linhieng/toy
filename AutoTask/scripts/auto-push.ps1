@@ -33,13 +33,15 @@ function git_push($fullpath) {
     # 获取上游名称
     $remote = git remote
 
-    Write-Host "run command: git push $remote $branch. Current directory is $fullpath."  -ForegroundColor "green"
+    Write-Host "run command: git push. Current directory is $fullpath."  -ForegroundColor "green"
     # 开始更新
-    $output = git push --quiet $remote $branch 2>&1
+    # $output = git push --quiet $remote $branch 2>&1
+    # TODO: 有点问题，需要重改，因为有些仓库的本地分支和云端分支名称不一致。目前先直接用 push 代替。
+    $output = git push --quiet 2>&1
     if (-not $?) {
         log -type "warn" -msg $output
     }
-    Write-Host "--------------------------------------------------over"
+    Write-Host "--------------------------------------------------over local branch: ($branch)"
 }
 
 # 传入一个完整路径
@@ -61,6 +63,8 @@ try {
     $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
     # 编写的代码可能报错
     auto_push("D:\remote-repo")
+    # 目前此脚本正在调试，所以不要直接关闭窗口
+    pause
 } catch {
     $msg = $_
     Write-Host $msg -ForegroundColor "Red"
