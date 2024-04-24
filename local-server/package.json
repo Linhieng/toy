@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "nodemon server/index.js"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "express-session": "^1.16.1",
