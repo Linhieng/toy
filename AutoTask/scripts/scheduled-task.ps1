@@ -1,4 +1,12 @@
-﻿$taskName = "MyTask"
+﻿<#
+d:
+cd d:\
+mkdir .scripts
+New-Item -ItemType HardLink -Value D:\github-code\toy\AutoTask\scripts\auto-push.ps1 -Path D:\.scripts\auto-push.ps1
+创建一个硬链接。
+ #>
+
+$taskName = "MyTask"
 
 # 检查任务是否存在
 $taskExists = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
