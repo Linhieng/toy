@@ -5,8 +5,8 @@ const express = require('express')
 const http = require('http')
 const uuid = require('uuid')
 const { WebSocketServer } = require('ws')
-const { logUrlWithPort } = require('@linhieng/misc-utils')
-
+const { logUrlWithPort } = require('./utils')
+const fs = require('fs')
 
 function onSocketError(err) {
     console.error(err)
@@ -97,7 +97,8 @@ wss.on('connection', function (ws, request) {
         //
         // Here we can now use session parameters.
         //
-        console.log(`Received message ${message} from user ${userId}`)
+        console.log(`Received message ${message.slice(0, 10)}${message.length > 10 ? '...' : ''} from user ${userId}`)
+        fs.writeFileSync(Date.now() + '.txt', message, )
     })
 
     ws.on('close', function () {
@@ -109,5 +110,5 @@ wss.on('connection', function (ws, request) {
 // Start the server.
 //
 server.listen(PORT, () => {
-    logUrlWithPort(PORT)
+    console.log(logUrlWithPort(PORT))
 })

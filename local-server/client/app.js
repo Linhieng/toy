@@ -4,6 +4,8 @@
     const wsSendButton = document.querySelector('#wsSendButton');
     const logout = document.querySelector('#logout');
     const login = document.querySelector('#login');
+    const clear = document.querySelector('#clear')
+    const textarea = document.querySelector('textarea')
 
     function showMessage(message) {
       messages.textContent += `\n${message}`;
@@ -60,8 +62,15 @@
         showMessage('No WebSocket connection');
         return;
       }
+      if (!textarea.value) {
+        showMessage('No message Data')
+      }
 
-      ws.send('Hello World!');
-      showMessage('Sent "Hello World!"');
+      ws.send(textarea.value);
+      showMessage('Sent Successfully');
     };
+
+    clear.onclick = () => {
+      textarea.value = ''
+    }
   })();
