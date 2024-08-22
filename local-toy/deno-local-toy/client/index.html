@@ -2,65 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>本地工具</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>本地工具</title>
 </head>
 
 <body>
-    <style>
-        form input[type=file] {
-            display: block;
-            margin: 10px;
-        }
-    </style>
+	<style>
+		form input[type=file] {
+			display: block;
+			margin: 10px;
+		}
+	</style>
 
-    <form action="/api/upload/files" method="post">
-        <input type="file" name="files" id="files" accept="image/*" multiple required>
-        <button type="button" id="add">继续上传</button>
-        <button type="submit" id="submit">上传</button>
-    </form>
+	<form action="/api/upload/files" method="post">
+		<input type="file" name="files" id="files" accept="image/*" multiple required>
+		<button type="button" id="add">继续上传</button>
+		<button type="submit" id="submit">上传</button>
+	</form>
 
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script>
-        const formEl = document.querySelector('form')
-        const btnAddEl = document.getElementById('add')
-        const btnSubmitEl = document.getElementById('submit')
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script>
+		const formEl = document.querySelector('form')
+		const btnAddEl = document.getElementById('add')
+		const btnSubmitEl = document.getElementById('submit')
 
-        btnAddEl.addEventListener('click', () => {
-            const input = document.createElement('input')
-            input.type = 'file'
-            input.name = 'files'
-            input.accept = 'image/*'
-            input.required = true
-            const filesEl = formEl.querySelectorAll('input[type=file]')
-            filesEl[filesEl.length - 1].after(input)
-        })
+		btnAddEl.addEventListener('click', () => {
+			const input = document.createElement('input')
+			input.type = 'file'
+			input.name = 'files'
+			input.accept = 'image/*'
+			input.required = true
+			const filesEl = formEl.querySelectorAll('input[type=file]')
+			filesEl[filesEl.length - 1].after(input)
+		})
 
-        formEl.addEventListener('submit', async (evt) => {
-            evt.preventDefault()
-            btnSubmitEl.setAttribute('disabled', true)
+		formEl.addEventListener('submit', async (evt) => {
+			evt.preventDefault()
+			btnSubmitEl.setAttribute('disabled', true)
 
-            const formData = new FormData(formEl)
+			const formData = new FormData(formEl)
 
-            try {
-                await axios.post('/api/upload/files', formData)
-                reset()
-            } catch (error) {
-                console.error('文件上传失败', error)
-            }
+			try {
+				await axios.post('/api/upload/files', formData)
+				reset()
+			} catch (error) {
+				console.error('文件上传失败', error)
+			}
 
-            btnSubmitEl.removeAttribute('disabled')
-        });
+			btnSubmitEl.removeAttribute('disabled')
+		})
 
-        function reset() {
-            const filesEl = formEl.querySelectorAll('input[type=file]')
-            filesEl.forEach((el, i) => {
-                if (i !== 0) el.remove()
-            })
-            filesEl[0].value = ''
-        }
-    </script>
+		function reset() {
+			const filesEl = formEl.querySelectorAll('input[type=file]')
+			filesEl.forEach((el, i) => {
+				if (i !== 0) el.remove()
+			})
+			filesEl[0].value = ''
+		}
+	</script>
 </body>
 
 </html>

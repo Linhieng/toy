@@ -1,7 +1,6 @@
 {
 	"deno.enable": true,
-
-    // 采用 tab 缩进
+	// 采用 tab 缩进
 	"editor.useTabStops": true,
 	"editor.formatOnSave": true,
 	"editor.detectIndentation": false,
