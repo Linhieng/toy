@@ -16,7 +16,7 @@
 	</style>
 
 	<form action="/api/upload/files" method="post">
-		<input type="file" name="files" id="files" accept="image/*" multiple required>
+		<input type="file" name="files" id="files" multiple required>
 		<button type="button" id="add">继续上传</button>
 		<button type="submit" id="submit">上传</button>
 	</form>
@@ -31,7 +31,7 @@
 			const input = document.createElement('input')
 			input.type = 'file'
 			input.name = 'files'
-			input.accept = 'image/*'
+			// input.accept = 'image/*'
 			input.required = true
 			const filesEl = formEl.querySelectorAll('input[type=file]')
 			filesEl[filesEl.length - 1].after(input)
