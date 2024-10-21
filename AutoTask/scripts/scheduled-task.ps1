@@ -1,10 +1,11 @@
 ﻿<#
-d:
-cd d:\
-mkdir .scripts
-New-Item -ItemType HardLink -Value D:\github-code\toy\AutoTask\scripts\auto-push.ps1 -Path D:\.scripts\auto-push.ps1
-创建一个硬链接。
- #>
+
+该脚本作用：
+    将脚本 D:\.scripts\auto-push.ps1 创建为一个自动任务，每天晚上 10:20 分 自动运行。
+使用方法：
+    首先准备好 D:\.scripts\auto-push.ps1 脚本，具体请见该脚本。然后直接运行该脚本即可，运行方式是直接双击，也就是使用 pwsh7 运行该脚本。
+
+#>
 
 $taskName = "MyTask"
 

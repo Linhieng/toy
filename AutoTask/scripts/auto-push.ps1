@@ -1,4 +1,19 @@
-﻿function log {
+﻿<#
+
+该脚本作用：
+    每天晚上自动推送本地的仓库。具体推送哪些仓库，取决于 D:\remote-repo 文件夹中有哪些仓库的快捷方式。注意 D:\remote-repo 文件夹中一个快捷方式仅仅对应一个分支，如果一个仓库有多个分支，则需要创建多个快捷方式。
+
+使用方法：
+    先为该脚本注册一个硬链接，目前该脚本路径是在 D:\github-code\toy\AutoTask\scripts\auto-push.ps1，我们想要为它创建一个硬链接，路径是 D:\.scripts\auto-push.ps1。通过运行下面命令即可快捷创建硬链接（在 pwsh7 中运行以下命令）
+
+        cd d:\
+        mkdir .scripts
+        New-Item -ItemType HardLink -Value D:\github-code\toy\AutoTask\scripts\auto-push.ps1 -Path D:\.scripts\auto-push.ps1
+    然后借助 scheduled-task.ps1 创建一个定时任务，每天自动运行该脚本。
+
+#>
+
+function log {
     param(
         [string] $type,
         [string] $msg
