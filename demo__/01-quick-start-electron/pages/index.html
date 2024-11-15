@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>ELectron 应用入门 demo</title>
+    <meta charset='UTF-8'>
+    <!-- 配置 CSP，详见 https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+
+    <script src="./render.js" defer></script>
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+    <br>
+
+    <div>
+        <input id="text1" type="text">
+        <button id="write-btn">写入文件内容</button>
+    </div>
+    <hr>
+    <div>
+        <input id="text2" type="text" disabled>
+        <button id="read-btn">读取文件内容</button>
+    </div>
+</body>
+
+</html>
