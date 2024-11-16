@@ -1,0 +1,25 @@
+{
+	"manifest_version": 3,
+	"name": "插件练习",
+	"version": "1.0",
+	"description": "TypeScript + Webpack + Tailwind + React",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"contentScript.js"
+			]
+		}
+	],
+	"permissions": [
+		"storage"
+	]
+}
