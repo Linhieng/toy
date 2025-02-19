@@ -9,8 +9,6 @@
   - `pip install pyinstaller`
   - `pyinstaller --onefile -w main.py`
 
-```
-我已经打包好 exe 文件，想要的可以直接下载
-https://wwdn.lanzouw.com/i1T112o8wxhc
-密码:dnc8
-```
+- 我已经打包好 exe 文件，想要的可以直接下载
+  - github: [Release pdf2png-v1.0.0 · Linhieng/toy](https://github.com/Linhieng/toy/releases/tag/pdf2png-v1.0.0)
+  - 蓝奏云：https://wwdn.lanzouw.com/i1T112o8wxhc 密码:dnc8
