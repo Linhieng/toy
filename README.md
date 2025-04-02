@@ -1,5 +1,8 @@
 # 我的玩具 [查看 github 仓库](https://github.com/Linhieng/toy)
 
+TODO:
+- [ ] 将 python-tkinter 脚本迁移出此仓库，重新新建一个 pdf-tool 仓库，存放文件。
+
 有页面：
 - [CSS 中的 justify align 属性](justify-align/README.md)
 - [字符转换](symbol-transform/index.html)
